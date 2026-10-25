@@ -1,0 +1,1257 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Tech &amp; so – Simon &amp; Robin Schaugg | KI, digitale Produkte &amp; Social Innovation</title>
+  <meta name="description" content="Simon und Robin Schaugg entwickeln KI-Lösungen und digitale Produkte für Bildung, öffentliche Institutionen und gesellschaftliche Organisationen.">
+  <!-- TODO: echte Domain eintragen (canonical, og:url, sitemap.xml, robots.txt) -->
+  <link rel="canonical" href="https://schaugg.com/">
+  <link rel="alternate" hreflang="de" href="https://schaugg.com/">
+  <!-- Später: <link rel="alternate" hreflang="en" href="https://schaugg.com/en/"> -->
+  <meta name="theme-color" content="#F5F2EB">
+
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="de_DE">
+  <meta property="og:title" content="Tech &amp; so – Simon &amp; Robin Schaugg | KI, digitale Produkte &amp; Social Innovation">
+  <meta property="og:site_name" content="Tech &amp; so">
+  <meta property="og:description" content="KI & digitale Produkte für Menschen und Gesellschaft – für Bildung, öffentliche Institutionen und gesellschaftliche Organisationen.">
+  <meta property="og:url" content="https://schaugg.com/">
+  <!-- TODO: Social-Vorschaubild (1200×630) erstellen und einbinden -->
+  <!-- <meta property="og:image" content="https://schaugg.com/assets/og-image.jpg"> -->
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&amp;family=Geist:wght@400;500;600&amp;family=Geist+Mono:wght@400;500&amp;display=swap">
+  <link rel="stylesheet" href="assets/styles.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://schaugg.com/#website",
+        "url": "https://schaugg.com/",
+        "name": "Tech & so",
+        "alternateName": ["Tech und so", "Simon & Robin Schaugg"],
+        "description": "Tech & so – Technologie & Soziales: KI und digitale Produkte für Menschen und Gesellschaft von Simon und Robin Schaugg.",
+        "inLanguage": "de-DE",
+        "about": ["Human-Centered AI", "Digitale Produkte", "Social Innovation", "Public Interest Technology"]
+      },
+      {
+        "@type": "Person",
+        "@id": "https://schaugg.com/#simon",
+        "name": "Simon Schaugg",
+        "jobTitle": "Strategy & Human-Centered Innovation",
+        "url": "https://www.simonschaugg.de/",
+        "alumniOf": { "@type": "CollegeOrUniversity", "name": "Goethe-Universität Frankfurt" },
+        "knowsAbout": ["Psychologie", "Verhaltenswissenschaft", "Social Innovation", "Strategie", "Partnerschaften"],
+        "address": { "@type": "PostalAddress", "addressLocality": "Frankfurt am Main", "addressCountry": "DE" },
+        "sameAs": ["https://www.linkedin.com/in/simonschaugg", "https://www.simonschaugg.de/"]
+      },
+      {
+        "@type": "Person",
+        "@id": "https://schaugg.com/#robin",
+        "name": "Robin Schaugg",
+        "jobTitle": "Product & AI",
+        "knowsAbout": ["KI-Systeme", "Produktstrategie", "Automatisierung", "Produktmanagement", "Technische Architektur"],
+        "sameAs": ["https://www.linkedin.com/in/robin-schaugg-302b01218/"]
+      },
+      {
+        "@type": "Organization",
+        "@id": "https://schaugg.com/#neuhier",
+        "name": "NeuHier",
+        "url": "https://neuhier.com/",
+        "description": "Digitale Unterstützung für internationale Studierende und Fachkräfte in Deutschland.",
+        "founder": [{ "@id": "https://schaugg.com/#simon" }, { "@id": "https://schaugg.com/#robin" }, { "@type": "Person", "name": "Ziyue Zhang" }]
+      },
+      {
+        "@type": "Organization",
+        "@id": "https://schaugg.com/#yold",
+        "name": "YOLD",
+        "alternateName": "Young to Old",
+        "url": "https://yold.info/",
+        "description": "Generationenübergreifende Mentoring-Initiative für intergenerationalen Austausch, Peer Learning und Community.",
+        "founder": [{ "@id": "https://schaugg.com/#simon" }, { "@type": "Person", "name": "Steffen Luhn" }, { "@type": "Person", "name": "Carl Brammer" }]
+      },
+      {
+        "@type": "WebApplication",
+        "@id": "https://schaugg.com/#yoldconnect",
+        "name": "YOLD Connect",
+        "url": "https://yoldconnect.de/",
+        "applicationCategory": "Mentoring-Plattform",
+        "description": "Digitale Mentoring-Plattform, Ausgründung aus YOLD.",
+        "creator": { "@id": "https://schaugg.com/#simon" }
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+<a class="skip-link" href="#main">Zum Inhalt springen</a>
+
+<!-- ================= NAVIGATION ================= -->
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="#top" aria-label="Tech &amp; so – Simon &amp; Robin Schaugg – Startseite">
+      <span class="brand__mark" aria-hidden="true"></span>
+      <span class="brand__name">Tech <span class="brand__amp">&amp;</span> so</span><span class="brand__by">Simon &amp; Robin Schaugg</span>
+    </a>
+
+    <nav class="primary-nav" aria-label="Hauptnavigation">
+      <ul class="primary-nav__list">
+        <li><a class="primary-nav__link" href="#arbeit">Arbeit</a></li>
+        <li><a class="primary-nav__link" href="#expertise">Expertise</a></li>
+        <li><a class="primary-nav__link" href="#ueber-uns">Über uns</a></li>
+        <li><a class="primary-nav__link" href="#presse">Presse</a></li>
+        <li><a class="primary-nav__link" href="#kontakt">Kontakt</a></li>
+      </ul>
+      <div class="lang">
+        <span class="lang__current" aria-current="true">DE</span>
+        <span class="lang__sep" aria-hidden="true">/</span>
+        <!-- TODO: englische Version unter /en/ anlegen -->
+        <a class="lang__alt" href="#top" lang="en" hreflang="en" title="English version coming soon">EN</a>
+      </div>
+      <a class="btn btn--primary btn--sm" href="#kontakt">Projekt besprechen</a>
+    </nav>
+
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-menu">
+      <span class="visually-hidden">Menü öffnen</span>
+      <svg class="menu-toggle__open" width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M3 6h14M3 14h14"/></svg>
+      <svg class="menu-toggle__close" width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M5 5l10 10M15 5L5 15"/></svg>
+    </button>
+  </div>
+  <div class="progress" aria-hidden="true"></div>
+</header>
+
+<div class="mobile-menu" id="mobile-menu" hidden>
+  <nav aria-label="Mobile Navigation" style="display: contents;">
+    <a class="mobile-menu__link" href="#arbeit">Arbeit</a>
+    <a class="mobile-menu__link" href="#expertise">Expertise</a>
+    <a class="mobile-menu__link" href="#ueber-uns">Über uns</a>
+    <a class="mobile-menu__link" href="#presse">Presse</a>
+    <a class="mobile-menu__link" href="#kontakt">Kontakt</a>
+  </nav>
+  <div class="lang">
+    <span class="lang__current" aria-current="true">DE</span>
+    <span class="lang__sep" aria-hidden="true">/</span>
+    <a class="lang__alt" href="#top" lang="en" hreflang="en">EN</a>
+  </div>
+  <a class="btn btn--primary" href="#kontakt">Projekt besprechen</a>
+</div>
+
+<main id="main">
+
+  <!-- ================= HERO ================= -->
+  <section class="hero" id="top" aria-labelledby="hero-title">
+    <div class="wrap grid hero__layout">
+      <div class="hero__copy">
+        <p class="label eyebrow">Tech &amp; so · Technologie &amp; Soziales · Simon &amp; Robin Schaugg</p>
+        <h1 class="hero__title" id="hero-title">
+          <span class="hero__line"><span style="--i: 0;">Digitale Lösungen</span></span>
+          <span class="hero__line"><span style="--i: 1;">für reale Probleme.</span></span>
+        </h1>
+        <p class="lead">Wir verbinden Technologie, Psychologie und Produktstrategie, um digitale Lösungen für öffentliche Institutionen, Bildung und gesellschaftliche Organisationen zu entwickeln.</p>
+        <div class="hero__actions">
+          <a class="btn btn--primary" href="#kontakt">Projekt besprechen</a>
+          <a class="btn btn--ghost" href="#arbeit">Unsere Arbeit</a>
+        </div>
+        <p class="hero__formula" lang="en"><span>Human behavior</span><span class="hero__times" aria-hidden="true">×</span><span>Product thinking</span><span class="hero__times" aria-hidden="true">×</span><span>Technology</span></p>
+        <p class="label hero__place">Frankfurt · Heidelberg · Deutschland</p>
+      </div>
+
+      <figure class="hero__art">
+          <svg class="hero-art" viewBox="0 0 640 530" role="img" aria-labelledby="art-title art-desc">
+            <title id="art-title">Mensch und Roboter beim Fist-Bump</title>
+            <desc id="art-desc">Comic-Zeichnung: Ein Roboter ruft „Ich hab die Lösung!“, der Mensch neben ihm fragt skeptisch „Schön. Welches Problem?“. Dabei stoßen beide die Fäuste aneinander.</desc>
+            <defs>
+              <pattern id="art-dots" width="11" height="11" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.6" fill="#C9C2B2"/></pattern>
+              <clipPath id="art-disc"><circle cx="330" cy="318" r="222"/></clipPath>
+            </defs>
+            <!-- Hintergrund: Scheibe mit Rasterpunkten wie im Comicdruck -->
+            <circle cx="330" cy="318" r="222" fill="#ECE7DC"/>
+            <rect x="300" y="90" width="300" height="460" fill="url(#art-dots)" clip-path="url(#art-disc)" opacity="0.8"/>
+            <ellipse cx="330" cy="503" rx="235" ry="13" fill="#D8D2C4"/>
+            <g fill="none" stroke="#0E1726" stroke-width="3" stroke-linecap="round">
+              <path d="M82 262 h16 M90 254 v16"/><path d="M588 320 h14 M595 313 v14"/><circle cx="566" cy="228" r="4"/><circle cx="104" cy="392" r="3"/>
+            </g>
+
+            <!-- Mensch -->
+            <g class="art-human" stroke="#0E1726" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+              <rect x="168" y="392" width="27" height="96" rx="11" fill="#2B4C7E"/>
+              <rect x="205" y="392" width="27" height="96" rx="11" fill="#2B4C7E"/>
+              <path d="M156 498 q0 -16 24 -16 q20 0 22 16 z" fill="#0E1726"/>
+              <path d="M200 498 q2 -16 22 -16 q24 0 24 16 z" fill="#0E1726"/>
+              <rect x="155" y="277" width="104" height="135" rx="34" fill="#0E1726" stroke="none"/>
+              <rect x="148" y="270" width="104" height="135" rx="34" fill="#E3E8F0"/>
+              <path d="M184 272 L200 292 L216 272" fill="none"/>
+              <!-- Arm mit Tasse -->
+              <path d="M160 300 Q136 334 146 366" fill="none" stroke-width="31"/>
+              <path d="M160 300 Q136 334 146 366" fill="none" stroke="#E3E8F0" stroke-width="25"/>
+              <path class="art-steam" d="M134 340 q-6 -10 0 -18 q6 -8 0 -16 M148 338 q-6 -10 0 -18 q6 -8 0 -16" fill="none" stroke-width="2.5"/>
+              <rect x="122" y="350" width="36" height="40" rx="6" fill="#FBFAF6"/>
+              <path d="M122 360 q-14 2 -12 14 q2 10 12 8" fill="none"/>
+              <path d="M131 372 h18" stroke="#A8461A" stroke-width="3"/>
+              <circle cx="158" cy="371" r="12" fill="#F4D3BC"/>
+              <!-- Arm zur Faust -->
+              <path d="M244 298 Q284 300 316 316" fill="none" stroke-width="31"/>
+              <path d="M244 298 Q284 300 316 316" fill="none" stroke="#E3E8F0" stroke-width="25"/>
+              <circle cx="322" cy="318" r="16" fill="#F4D3BC"/>
+              <path d="M326 309 v6 M332 312 v6" fill="none" stroke-width="2"/>
+              <!-- Kopf -->
+              <rect x="189" y="250" width="22" height="24" fill="#F4D3BC"/>
+              <circle cx="206" cy="211" r="52" fill="#0E1726" stroke="none"/>
+              <circle cx="200" cy="205" r="52" fill="#F4D3BC"/>
+              <path d="M148 204 C142 160 172 140 204 141 C238 140 260 162 253 198 C246 184 236 179 226 183 C220 170 206 168 196 179 C186 168 168 174 164 190 C158 193 152 198 148 204 Z" fill="#0E1726"/>
+              <circle cx="180" cy="228" r="7" fill="#EBA27C" stroke="none" opacity="0.6"/>
+              <path d="M182 197 L200 195" fill="none"/>
+              <path d="M214 190 Q225 181 236 191" fill="none"/>
+              <ellipse cx="193" cy="211" rx="4" ry="5" fill="#0E1726" stroke="none"/>
+              <ellipse cx="223" cy="210" rx="4" ry="5" fill="#0E1726" stroke="none"/>
+              <path d="M211 215 Q218 225 209 227" fill="none" stroke-width="2.5"/>
+              <path d="M196 238 Q208 242 222 233" fill="none"/>
+            </g>
+
+            <!-- Roboter -->
+            <g class="art-robot" stroke="#0E1726" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+              <rect x="430" y="408" width="20" height="44" fill="#ECE7DC"/>
+              <circle cx="440" cy="470" r="30" fill="#FBFAF6"/>
+              <path d="M440 444 v52 M414 470 h52 M422 452 l36 36 M458 452 l-36 36" fill="none" stroke-width="2"/>
+              <circle cx="440" cy="470" r="8" fill="#0E1726"/>
+              <!-- Arm zur Faust -->
+              <path d="M392 328 Q368 334 350 320" fill="none" stroke-width="22"/>
+              <path d="M392 328 Q368 334 350 320" fill="none" stroke="#ECE7DC" stroke-width="16"/>
+              <circle cx="350" cy="318" r="14" fill="#FBFAF6"/>
+              <!-- winkender Arm -->
+              <path d="M488 326 Q522 306 524 266" fill="none" stroke-width="22"/>
+              <path d="M488 326 Q522 306 524 266" fill="none" stroke="#ECE7DC" stroke-width="16"/>
+              <circle class="art-wave" cx="524" cy="258" r="13" fill="#FBFAF6"/>
+              <!-- Körper -->
+              <rect x="395" y="297" width="104" height="124" rx="20" fill="#0E1726" stroke="none"/>
+              <rect x="388" y="290" width="104" height="124" rx="20" fill="#FBFAF6"/>
+              <rect x="406" y="310" width="68" height="44" rx="6" fill="#E3E8F0" stroke-width="2.5"/>
+              <text x="440" y="328" text-anchor="middle" font-family="Geist Mono, ui-monospace, monospace" font-size="9" letter-spacing="1" fill="#0E1726" stroke="none" class="art-label">LÖSUNG</text>
+              <rect x="414" y="336" width="52" height="9" rx="4.5" fill="#FBFAF6" stroke-width="1.5"/>
+              <rect class="art-bar" x="414" y="336" width="52" height="9" rx="4.5" fill="#A8461A" stroke-width="1.5"/>
+              <circle cx="418" cy="382" r="6" fill="#A8461A"/><circle cx="440" cy="382" r="6" fill="#2B4C7E"/><circle cx="462" cy="382" r="6" fill="#0E1726"/>
+              <!-- Kopf -->
+              <rect x="430" y="258" width="20" height="34" fill="#ECE7DC"/>
+              <rect x="382" y="206" width="12" height="28" rx="4" fill="#ECE7DC"/>
+              <rect x="486" y="206" width="12" height="28" rx="4" fill="#ECE7DC"/>
+              <path d="M440 180 V150" fill="none"/>
+              <rect x="398" y="186" width="96" height="82" rx="18" fill="#0E1726" stroke="none"/>
+              <rect x="392" y="180" width="96" height="82" rx="18" fill="#FBFAF6"/>
+              <rect x="404" y="194" width="72" height="54" rx="10" fill="#0E1726"/>
+              <g class="art-eyes"><path d="M418 224 L426 213 L434 224 M446 224 L454 213 L462 224" fill="none" stroke="#EBA27C" stroke-width="4"/>
+              <path d="M430 236 Q440 243 450 236" fill="none" stroke="#EBA27C" stroke-width="3"/></g>
+              <g class="art-bulb"><path d="M422 128 l-8 -6 M458 128 l8 -6 M440 118 v-10" fill="none" stroke="#A8461A" stroke-width="3"/><circle cx="440" cy="141" r="10" fill="#A8461A"/></g>
+            </g>
+
+            <!-- Funke beim Fist-Bump -->
+            <g class="art-spark" stroke="#A8461A" stroke-width="3.5" stroke-linecap="round" fill="none">
+              <path d="M336 290 v-16 M318 296 l-10 -10 M354 296 l10 -10 M300 308 h-10 M372 308 h10"/>
+            </g>
+
+            <!-- Sprechblasen -->
+            <g class="art-bubble art-bubble--robot">
+              <path d="M392 8 H602 Q620 8 620 26 V66 Q620 84 602 84 H526 L494 158 L502 84 H392 Q374 84 374 66 V26 Q374 8 392 8 Z" fill="#0E1726" transform="translate(6 6)"/>
+              <path d="M392 8 H602 Q620 8 620 26 V66 Q620 84 602 84 H526 L494 158 L502 84 H392 Q374 84 374 66 V26 Q374 8 392 8 Z" fill="#FBFAF6" stroke="#0E1726" stroke-width="3" stroke-linejoin="round"/>
+              <text x="497" y="56" text-anchor="middle" class="art-say" textLength="206" lengthAdjust="spacingAndGlyphs">Ich hab die Lösung!</text>
+            </g>
+            <g class="art-bubble art-bubble--human">
+              <path d="M46 64 H284 Q302 64 302 82 V112 Q302 130 284 130 H214 L198 148 L192 130 H46 Q28 130 28 112 V82 Q28 64 46 64 Z" fill="#0E1726" transform="translate(6 6)"/>
+              <path d="M46 64 H284 Q302 64 302 82 V112 Q302 130 284 130 H214 L198 148 L192 130 H46 Q28 130 28 112 V82 Q28 64 46 64 Z" fill="#FBFAF6" stroke="#0E1726" stroke-width="3" stroke-linejoin="round"/>
+              <text x="165" y="107" text-anchor="middle" class="art-say" textLength="232" lengthAdjust="spacingAndGlyphs">Schön. Welches Problem?</text>
+            </g>
+          </svg>
+        <figcaption class="hero__caption">Abb. 1 · Typisches KI-Projekt, Minute eins.</figcaption>
+        <button type="button" class="note-btn" id="art-next">↻ Noch ein Dialog (oder auf den Roboter klicken)</button>
+        <p class="visually-hidden" id="art-live" aria-live="polite"></p>
+      </figure>
+    </div>
+  </section>
+
+  <!-- ================= PRESSE-LOGOS (wie auf simonschaugg.de) ================= -->
+  <section class="press-strip" aria-label="Berichterstattung und Auszeichnungen">
+    <div class="press-strip__track">
+      <div class="press-strip__set">
+          <span class="press-strip__label">Vertreten in</span>
+          <img class="pl" src="assets/press-logos/faz.png" alt="F.A.Z. (Frankfurter Allgemeine Zeitung)" decoding="async" style="height:clamp(21px,1.9vw,30px)">
+          <img class="pl" src="assets/press-logos/fas.png" alt="Frankfurter Allgemeine Sonntagszeitung (F.A.S.)" decoding="async" style="height:clamp(21px,1.9vw,30px)">
+          <img class="pl" src="assets/press-logos/bild-am-sonntag.png" alt="BILD am Sonntag" decoding="async" style="height:clamp(30px,2.8vw,44px)">
+          <img class="pl" src="assets/press-logos/bild.png" alt="BILD" decoding="async" style="height:clamp(30px,2.8vw,44px)">
+          <img class="pl" src="assets/press-logos/journal-frankfurt.png" alt="Journal Frankfurt" decoding="async" style="height:clamp(32px,2.9vw,46px)">
+          <img class="pl" src="assets/press-logos/fnp.png" alt="Frankfurter Neue Presse" decoding="async" style="height:clamp(24px,2.1vw,34px)">
+          <span class="press-strip__text">Frankfurt-Live</span>
+          <img class="pl" src="assets/press-logos/frankfurt-im-blick.png" alt="Stadt Frankfurt im Blick" decoding="async" style="height:clamp(17px,1.5vw,24px)">
+          <img class="pl" src="assets/press-logos/unireport.png" alt="UniReport der Goethe-Universität Frankfurt" decoding="async" style="height:clamp(24px,2.1vw,34px)">
+          <img class="pl" src="assets/press-logos/goethe-universitaet.png" alt="UniReport und EinBlick der Goethe-Universität Frankfurt" decoding="async" style="height:clamp(35px,3.1vw,50px)">
+          <img class="pl" src="assets/press-logos/radio-frankfurt.png" alt="Radio Frankfurt" decoding="async" style="height:clamp(28px,2.5vw,40px)">
+          <img class="pl" src="assets/press-logos/social-impact-award.png" alt="Social Impact Award Germany" decoding="async" style="height:clamp(38px,3.5vw,56px)">
+          <img class="pl" src="assets/press-logos/stiftung-polytechnische.png" alt="Stiftung Polytechnische Gesellschaft Frankfurt am Main" decoding="async" style="height:clamp(31px,2.8vw,44px)">
+      </div>
+      <div class="press-strip__set press-strip__dup" aria-hidden="true">
+          <span class="press-strip__label">Vertreten in</span>
+          <img class="pl" src="assets/press-logos/faz.png" alt="" decoding="async" style="height:clamp(21px,1.9vw,30px)">
+          <img class="pl" src="assets/press-logos/fas.png" alt="" decoding="async" style="height:clamp(21px,1.9vw,30px)">
+          <img class="pl" src="assets/press-logos/bild-am-sonntag.png" alt="" decoding="async" style="height:clamp(30px,2.8vw,44px)">
+          <img class="pl" src="assets/press-logos/bild.png" alt="" decoding="async" style="height:clamp(30px,2.8vw,44px)">
+          <img class="pl" src="assets/press-logos/journal-frankfurt.png" alt="" decoding="async" style="height:clamp(32px,2.9vw,46px)">
+          <img class="pl" src="assets/press-logos/fnp.png" alt="" decoding="async" style="height:clamp(24px,2.1vw,34px)">
+          <span class="press-strip__text" aria-hidden="true">Frankfurt-Live</span>
+          <img class="pl" src="assets/press-logos/frankfurt-im-blick.png" alt="" decoding="async" style="height:clamp(17px,1.5vw,24px)">
+          <img class="pl" src="assets/press-logos/unireport.png" alt="" decoding="async" style="height:clamp(24px,2.1vw,34px)">
+          <img class="pl" src="assets/press-logos/goethe-universitaet.png" alt="" decoding="async" style="height:clamp(35px,3.1vw,50px)">
+          <img class="pl" src="assets/press-logos/radio-frankfurt.png" alt="" decoding="async" style="height:clamp(28px,2.5vw,40px)">
+          <img class="pl" src="assets/press-logos/social-impact-award.png" alt="" decoding="async" style="height:clamp(38px,3.5vw,56px)">
+          <img class="pl" src="assets/press-logos/stiftung-polytechnische.png" alt="" decoding="async" style="height:clamp(31px,2.8vw,44px)">
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= AKTUELL ================= -->
+  <section aria-labelledby="current-title" style="padding-bottom: var(--section-y);">
+    <div class="wrap">
+      <article class="grid current reveal">
+        <div class="current__intro">
+          <div class="current__status">
+            <span class="label label--strong">Aktuell</span>
+            <span class="label status-dot">In Entwicklung</span>
+          </div>
+          <h2 class="current__title" id="current-title">Mehrsprachige KI für digitale Bildung.</h2>
+          <p class="current__partner">Civic Coding Accelerator 2026 ×<br>Deutscher Volkshochschul-Verband e. V.</p>
+          <p class="label current__meta">Challenge C08 · vhs-Lernportal<br>Civic Coding – Innovationsnetz KI für das Gemeinwohl</p>
+        </div>
+        <div class="current__body">
+          <p class="lead">Im Civic Coding Accelerator 2026 entwickeln wir gemeinsam mit dem Deutschen Volkshochschul-Verband eine mehrsprachige KI-Lösung für das vhs-Lernportal.</p>
+          <p class="body-muted">Ziel ist ein digitaler Assistent, der Nutzer:innen bei Supportfragen unterstützt, Bildungsbedarfe versteht, passende Angebote findet und sprachliche Zugangshürden reduziert – ohne persönliche Beratung zu ersetzen.</p>
+          <ul class="tags" aria-label="Themen" lang="en">
+            <li class="tag">Conversational AI</li>
+            <li class="tag">Multilingual UX</li>
+            <li class="tag">Education</li>
+            <li class="tag">Accessibility</li>
+            <li class="tag">Responsible AI</li>
+          </ul>
+          <a class="textlink" href="#civic-coding">Projekt ansehen <span class="arrow" aria-hidden="true">→</span></a>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- ================= WAS WIR ENTWICKELN ================= -->
+  <section class="section" id="expertise" aria-labelledby="exp-title" style="border-top: 1px solid var(--line);">
+    <div class="wrap">
+      <div class="grid section-head">
+        <div class="section-head__title reveal">
+          <p class="label">Expertise</p>
+          <h2 class="h2" id="exp-title">Was wir entwickeln</h2>
+        </div>
+        <div class="section-head__aside reveal">
+          <p style="font-size: clamp(1.5rem, 1.2rem + 0.8vw, 2rem); line-height: 1.2; font-weight: 500; letter-spacing: -0.02em;">Nicht jede Herausforderung braucht KI.</p>
+          <p class="note">(Sagen ausgerechnet wir.)</p>
+          <p class="body-muted" style="margin-top: 10px;">Aber wenn KI sinnvoll eingesetzt wird, kann sie Services zugänglicher, persönlicher und effizienter machen.</p>
+        </div>
+      </div>
+
+      <div class="capabilities stagger">
+        <article class="capability" style="--i: 0;">
+          <svg class="spot" viewBox="0 0 160 110" aria-hidden="true">
+            <path d="M24 14 H112 Q126 14 126 28 V58 Q126 72 112 72 H48 L30 90 L34 72 H24 Q10 72 10 58 V28 Q10 14 24 14 Z" fill="#0E1726" transform="translate(5 5)"/>
+            <path d="M24 14 H112 Q126 14 126 28 V58 Q126 72 112 72 H48 L30 90 L34 72 H24 Q10 72 10 58 V28 Q10 14 24 14 Z" fill="#FBFAF6" stroke="#0E1726" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+            <g class="spot-dots" fill="#0E1726"><circle cx="44" cy="43" r="6"/><circle cx="68" cy="43" r="6"/><circle cx="92" cy="43" r="6"/></g>
+            <rect x="112" y="64" width="40" height="34" rx="8" fill="#E3E8F0" stroke="#0E1726" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+            <rect x="118" y="70" width="28" height="18" rx="4" fill="#0E1726"/>
+            <path d="M124 82 l3 -5 l3 5 M134 82 l3 -5 l3 5" fill="none" stroke="#EBA27C" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M132 64 V54" stroke="#0E1726" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/><circle cx="132" cy="50" r="5" fill="#A8461A" stroke="#0E1726" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+          </svg>
+          <span class="capability__num">01</span>
+          <h3 class="capability__title" lang="en">AI Solutions</h3>
+          <p class="capability__copy">Wir entwickeln KI-gestützte Assistenzsysteme, Wissenslösungen und intelligente digitale Services, die reale Nutzerprobleme lösen.</p>
+          <ul class="tags" lang="en"><li class="tag">Conversational AI</li><li class="tag">AI Assistants</li><li class="tag">Retrieval-Augmented Generation</li><li class="tag">Knowledge Systems</li><li class="tag">Intelligent Search</li><li class="tag">Workflow Automation</li><li class="tag">Multilingual Interfaces</li></ul>
+        </article>
+        <article class="capability" style="--i: 1;">
+          <svg class="spot" viewBox="0 0 160 110" aria-hidden="true">
+            <rect x="61" y="13" width="54" height="94" rx="10" fill="#0E1726"/>
+            <rect x="56" y="8" width="54" height="94" rx="10" fill="#FBFAF6" stroke="#0E1726" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+            <rect x="64" y="20" width="38" height="22" rx="3" fill="#E3E8F0" stroke="#0E1726" stroke-width="2"/>
+            <path d="M64 52 h38 M64 60 h26 M64 68 h34" fill="none" stroke="#0E1726" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+            <rect x="64" y="78" width="24" height="11" rx="3" fill="#A8461A" stroke="#0E1726" stroke-width="2"/>
+            <g transform="rotate(8 126 34)"><rect x="104" y="14" width="46" height="42" fill="#EBA27C" stroke="#0E1726" stroke-width="2.5"/><text x="127" y="42" text-anchor="middle" class="spot-hand" textLength="28" lengthAdjust="spacingAndGlyphs">v0.1</text></g>
+            <g transform="rotate(-35 30 82)"><rect x="10" y="76" width="42" height="12" rx="2" fill="#ECE7DC" stroke="#0E1726" stroke-width="2.5"/><path d="M52 76 L64 82 L52 88 Z" fill="#FBFAF6" stroke="#0E1726" stroke-width="2.5" stroke-linejoin="round"/><rect x="4" y="76" width="8" height="12" rx="2" fill="#A8461A" stroke="#0E1726" stroke-width="2.5"/></g>
+          </svg>
+          <span class="capability__num">02</span>
+          <h3 class="capability__title" lang="en">Digital Products</h3>
+          <p class="capability__copy">Von der ersten Idee bis zum funktionierenden Prototyp entwickeln wir digitale Produkte, die verständlich, nutzbar und technisch realistisch sind.</p>
+          <ul class="tags" lang="en"><li class="tag">Product Strategy</li><li class="tag">Product Discovery</li><li class="tag">Rapid Prototyping</li><li class="tag">MVP Development</li><li class="tag">UX Concepts</li><li class="tag">Digital Platforms</li><li class="tag">Technical Implementation</li></ul>
+        </article>
+        <article class="capability" style="--i: 2;">
+          <svg class="spot" viewBox="0 0 160 110" aria-hidden="true">
+            <defs><clipPath id="spot-l"><rect x="0" y="0" width="80" height="110"/></clipPath><clipPath id="spot-r"><rect x="80" y="0" width="80" height="110"/></clipPath></defs>
+            <path d="M80 100 C44 76 22 58 26 38 C30 18 58 12 80 34 C102 12 130 18 134 38 C138 58 116 76 80 100 Z" fill="#0E1726" transform="translate(5 5)"/>
+            <path d="M80 100 C44 76 22 58 26 38 C30 18 58 12 80 34 C102 12 130 18 134 38 C138 58 116 76 80 100 Z" fill="#EBA27C" clip-path="url(#spot-l)"/>
+            <path d="M80 100 C44 76 22 58 26 38 C30 18 58 12 80 34 C102 12 130 18 134 38 C138 58 116 76 80 100 Z" fill="#E3E8F0" clip-path="url(#spot-r)"/>
+            <g clip-path="url(#spot-r)" fill="none" stroke="#0E1726" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M84 42 h16 v10 h16 M84 58 h26 M84 72 h10 v-8 h14"/></g>
+            <g fill="#0E1726"><circle cx="116" cy="52" r="3.5"/><circle cx="110" cy="58" r="3.5"/><circle cx="108" cy="64" r="3.5"/><circle cx="60" cy="48" r="3.5"/></g>
+            <path d="M50 62 q9 7 18 0" fill="none" stroke="#0E1726" stroke-width="2.5" stroke-linecap="round"/>
+            <path d="M80 100 C44 76 22 58 26 38 C30 18 58 12 80 34 C102 12 130 18 134 38 C138 58 116 76 80 100 Z" fill="none" stroke="#0E1726" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+            <path d="M80 34 V100" stroke="#0E1726" stroke-width="2" stroke-dasharray="4 5"/>
+          </svg>
+          <span class="capability__num">03</span>
+          <h3 class="capability__title" lang="en">Human-Centered AI</h3>
+          <p class="capability__copy">Gute KI beginnt nicht beim Modell, sondern bei den Menschen, die sie nutzen. Wir verbinden Technologie mit Psychologie, Verhaltenswissenschaft und Nutzerperspektive.</p>
+          <ul class="tags" lang="en"><li class="tag">Behavioral Design</li><li class="tag">User Research</li><li class="tag">Accessibility</li><li class="tag">Trust</li><li class="tag">Adoption</li><li class="tag">Inclusive UX</li><li class="tag">Human-in-the-loop</li></ul>
+        </article>
+        <article class="capability" style="--i: 3;">
+          <svg class="spot" viewBox="0 0 160 110" aria-hidden="true">
+            <rect x="39" y="51" width="92" height="50" fill="#0E1726"/>
+            <path d="M28 46 L80 18 L132 46 Z" fill="#FBFAF6" stroke="#0E1726" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+            <rect x="34" y="46" width="92" height="46" fill="#FBFAF6" stroke="#0E1726" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+            <g fill="#E3E8F0" stroke="#0E1726" stroke-width="2"><rect x="44" y="53" width="10" height="33"/><rect x="64" y="53" width="10" height="33"/><rect x="86" y="53" width="10" height="33"/><rect x="106" y="53" width="10" height="33"/></g>
+            <rect x="26" y="92" width="108" height="9" fill="#ECE7DC" stroke="#0E1726" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+            <path d="M80 18 V4" stroke="#0E1726" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/><path d="M80 4 h15 l-4 5 l4 5 h-15 z" fill="#A8461A" stroke="#0E1726" stroke-width="2" stroke-linejoin="round"/>
+            <path d="M8 4 H44 Q50 4 50 10 V22 Q50 28 44 28 H26 L20 36 L20 28 H8 Q2 28 2 22 V10 Q2 4 8 4 Z" fill="#FBFAF6" stroke="#0E1726" stroke-width="2.5" stroke-linejoin="round"/>
+            <text x="26" y="21" text-anchor="middle" class="spot-hand" textLength="34" lengthAdjust="spacingAndGlyphs">Hallo</text>
+            <path d="M110 58 H152 Q158 58 158 64 V76 Q158 82 152 82 H140 L136 90 L132 82 H110 Q104 82 104 76 V64 Q104 58 110 58 Z" fill="#FBFAF6" stroke="#0E1726" stroke-width="2.5" stroke-linejoin="round" transform="translate(0 -54)"/>
+            <text x="131" y="21" text-anchor="middle" class="spot-hand" textLength="42" lengthAdjust="spacingAndGlyphs">Merhaba</text>
+          </svg>
+          <span class="capability__num">04</span>
+          <h3 class="capability__title" lang="en">Social &amp; Public Innovation</h3>
+          <p class="capability__copy">Wir entwickeln digitale Lösungen für Organisationen, die gesellschaftliche Infrastruktur verbessern wollen – von Bildung und Integration bis zu Wissenstransfer und Teilhabe.</p>
+          <ul class="tags" lang="en"><li class="tag">Public Innovation</li><li class="tag">Education</li><li class="tag">Integration</li><li class="tag">Social Impact</li><li class="tag">Digital Participation</li><li class="tag">Community Platforms</li><li class="tag">Service Innovation</li></ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= THESE ================= -->
+  <section class="section is-dark thesis" aria-labelledby="thesis-title">
+    <div class="wrap grid thesis__grid">
+      <h2 class="thesis__title" id="thesis-title"><span class="w" style="--i: 0;">Technologie</span> <span class="w" style="--i: 1;">ist</span> <span class="w" style="--i: 2;">selten</span> <span class="w" style="--i: 3;">das</span> <span class="w" style="--i: 4;">eigentliche</span> <span class="w" style="--i: 5;">Problem.</span></h2>
+      <div class="thesis__aside reveal">
+        <p>Digitale Projekte scheitern häufig an der Schnittstelle zwischen Nutzerbedürfnissen, bestehenden Prozessen, Organisation und Technologie. Deshalb betrachten wir diese Ebenen gemeinsam.</p>
+        <figure class="knot-fig" id="knot">
+          <svg viewBox="-34 0 474 215" role="img" aria-labelledby="knot-title">
+            <title id="knot-title">Vier Fäden – Nutzer, Prozesse, Organisation und Technik – verknotet oder entwirrt</title>
+            <g class="knot" fill="none" stroke-width="5" stroke-linecap="round">
+<path d="M100 40 C170 40 170 160 230 140 S300 30 260 70 S330 190 360 120 S400 40 430 40" stroke="#9DB4DA"/>
+<path d="M100 85 C160 85 200 20 250 60 S220 180 290 150 S340 50 380 100 S410 85 430 85" stroke="#B9C0CC"/>
+<path d="M100 130 C150 130 180 60 240 90 S300 200 320 120 S290 40 350 70 S410 130 430 130" stroke="#F5F2EB"/>
+<path d="M100 175 C170 175 190 110 230 120 S280 160 300 110 S360 200 390 160 S420 175 430 175" stroke="#EBA27C"/>
+            </g>
+            <g class="neat" fill="none" stroke-width="5" stroke-linecap="round">
+<path d="M100 40 H430" stroke="#9DB4DA" pathLength="1"/>
+<path d="M100 85 H430" stroke="#B9C0CC" pathLength="1"/>
+<path d="M100 130 H430" stroke="#F5F2EB" pathLength="1"/>
+<path d="M100 175 H430" stroke="#EBA27C" pathLength="1"/>
+            </g>
+<text x="88" y="47" text-anchor="end" class="knot-label" textLength="56" lengthAdjust="spacingAndGlyphs">Nutzer</text>
+<text x="88" y="92" text-anchor="end" class="knot-label" textLength="75" lengthAdjust="spacingAndGlyphs">Prozesse</text>
+<text x="88" y="137" text-anchor="end" class="knot-label" textLength="113" lengthAdjust="spacingAndGlyphs">Organisation</text>
+<text x="88" y="182" text-anchor="end" class="knot-label knot-label--hi" textLength="66" lengthAdjust="spacingAndGlyphs">Technik</text>
+          </svg>
+        </figure>
+        <div class="knot-actions">
+          <button class="btn btn--light btn--sm" type="button" data-untangle aria-controls="knot" aria-pressed="false">Entwirren</button>
+          <p class="note">Technik ist nur einer von vier Fäden.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= SELECTED WORK ================= -->
+  <section class="section" id="arbeit" aria-labelledby="work-title">
+    <div class="wrap">
+      <div class="grid section-head">
+        <div class="section-head__title reveal">
+          <p class="label">Selected Work</p>
+          <h2 class="h2" id="work-title">Aus Problemen werden Produkte.</h2>
+        </div>
+        <p class="section-head__aside body-muted reveal">Unsere Projekte beginnen nicht mit Technologie, sondern mit einer konkreten Herausforderung. Wir verbinden Nutzerverständnis, Strategie und technische Umsetzung, um daraus Lösungen zu entwickeln, die in der Realität funktionieren können.</p>
+      </div>
+
+      <div class="work-grid">
+        <a class="work-card work-card--flagship is-dark reveal" href="#civic-coding">
+          <span class="work-card__meta"><span class="label">01 · Flagship</span><span class="label">Public AI · Education · 2026</span></span>
+          <span style="display: flex; flex-direction: column; gap: 12px;">
+            <span class="work-card__title">Civic Coding × Deutscher Volkshochschul-Verband</span>
+            <span class="body-muted">Mehrsprachiger KI-Assistent für Support und Orientierung im vhs-Lernportal.</span>
+          </span>
+          <span class="chat" role="img" aria-label="Illustrative Konzeptskizze: Eine Nutzerin fragt auf Ukrainisch nach einem Deutschkurs, der Assistent antwortet auf Ukrainisch mit deutscher Übersetzung.">
+            <span class="chat__head"><span>vhs-Lernportal · Assistent</span><span class="chat__note">Konzeptskizze</span></span>
+            <span class="chat__langs"><span class="chat__lang is-on">Українська</span><span class="chat__lang">Deutsch</span><span class="chat__lang">English</span><span class="chat__lang">Türkçe</span><span class="chat__lang" lang="ar" dir="rtl">العربية</span></span>
+            <span class="bubble bubble--user" lang="uk">Як записатися на курс німецької мови?</span>
+            <span class="bubble bubble--bot"><span lang="uk">Я допоможу. Спочатку кілька запитань про ваш рівень німецької.</span><span class="bubble__trans">Ich helfe gern. Zuerst ein paar Fragen zu Ihrem Deutschniveau.</span></span>
+            <span class="chat__options"><span class="chat__option">Angebot finden</span><span class="chat__option">Supportfrage</span><span class="chat__human">Persönliche Beratung</span></span>
+          </span>
+          <span class="work-card__foot"><span>Case Study ansehen</span><span aria-hidden="true">→</span></span>
+        </a>
+
+        <a class="work-card work-card--side reveal" href="#neuhier">
+          <span class="work-card__meta"><span class="label">02</span><span class="label">AI · Integration · Social Innovation</span></span>
+          <span class="work-card__title">NeuHier</span>
+          <span class="body-muted">Digitale Unterstützung für internationale Studierende und Fachkräfte – mit Mio, einem KI-Begleiter für soziale und kulturelle Integration.</span>
+          <span class="mini-journey" aria-label="Integrationsweg"><span style="border-top: 2px solid var(--blue); padding-top: 8px; font-size: 0.875rem;">Ankommen</span><span style="border-top: 2px solid var(--blue); padding-top: 8px; font-size: 0.875rem;">Verstehen</span><span style="border-top: 2px solid var(--blue); padding-top: 8px; font-size: 0.875rem;">Teilnehmen</span><span style="border-top: 2px solid var(--ink); padding-top: 8px; font-size: 0.875rem; font-weight: 600;">Dazugehören</span></span>
+          <span class="work-card__foot"><span>Simon Schaugg · Robin Schaugg · Ziyue Zhang</span><span aria-hidden="true">→</span></span>
+        </a>
+
+        <a class="work-card work-card--side reveal" href="#yold">
+          <span class="work-card__meta"><span class="label">03</span><span class="label">Social Innovation · Community</span></span>
+          <span class="work-card__title">YOLD</span>
+          <span class="body-muted">Intergenerationaler Austausch, Mentoring und Peer Learning: Wissen und Erfahrung, das bereits da ist, sichtbar und zugänglich machen.</span>
+          <span class="label" style="color: var(--ink-2);">Social Impact Award Germany 2026 · Finalist · YOLD Connect</span>
+          <span class="work-card__foot"><span>Simon Schaugg · Steffen Luhn · Carl Brammer</span><span aria-hidden="true">→</span></span>
+        </a>
+
+        <a class="work-card work-card--wide reveal" href="#gebaut">
+          <span class="label">04 · Selbst gebaut</span>
+          <span class="work-card__wide-text">Sechs Produkte, die wirklich laufen – von uns konzipiert und gebaut</span>
+          <span aria-hidden="true">→</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= CASE 01 — CIVIC CODING × DVV ================= -->
+  <section class="section is-dark" id="civic-coding" aria-labelledby="dvv-title">
+    <div class="wrap">
+      <div class="case-head"><span class="label">Case Study 01</span><span class="label">Public AI · Education · 2026</span></div>
+      <h2 class="case-title reveal" id="dvv-title">KI-gestützter Zugang zu digitaler Bildung.</h2>
+      <p class="case-sub reveal">Civic Coding × Deutscher Volkshochschul-Verband e. V.</p>
+
+      <div class="grid dvv-body">
+        <div class="dvv-story">
+          <div class="story-row reveal">
+            <h3 class="label story-row__k">Problem</h3>
+            <p class="story-row__v">Digitale Bildungsangebote können nur wirken, wenn Menschen sie finden, verstehen und nutzen können. Unterschiedliche Sprachkenntnisse, komplexe Navigation und Supportbedarf schaffen insbesondere für vulnerable Zielgruppen zusätzliche Hürden.</p>
+          </div>
+          <div class="story-row reveal">
+            <h3 class="label story-row__k">Herausforderung</h3>
+            <p class="story-row__v">Gemeinsam mit dem Deutschen Volkshochschul-Verband arbeiten wir im Civic Coding Accelerator 2026 an einem mehrsprachigen KI-System für das vhs-Lernportal.</p>
+          </div>
+          <div class="story-row reveal">
+            <h3 class="label story-row__k">Lösungsrichtung</h3>
+            <p class="story-row__v">Der digitale Assistent soll Nutzer:innen verstehen, Supportanfragen beantworten, zwischen unterschiedlichen Anliegen unterscheiden und passende Bildungsangebote zugänglich machen.</p>
+          </div>
+          <div class="story-row story-row--principle reveal">
+            <h3 class="label story-row__k">Prinzip</h3>
+            <p class="story-row__v">KI soll persönliche Beratung ergänzen – nicht ersetzen.</p>
+          </div>
+        </div>
+
+        <aside class="facts" aria-label="Projektdaten">
+          <dl>
+            <div><dt>Partner</dt><dd>Deutscher Volkshochschul-Verband e. V. (DVV)</dd></div>
+            <div><dt>Programm</dt><dd>Civic Coding Accelerator 2026</dd></div>
+            <div><dt>Challenge</dt><dd>C08 — Mehrsprachiger Support-Chatbot für das vhs-Lernportal</dd></div>
+            <div><dt>Kontext</dt><dd>vhs-Lernportal, vhs.cloud und vhs-Kursfinder</dd></div>
+            <div><dt>Team</dt><dd>Dreiköpfiges NeuHier-Projektteam unter Leitung von Robin Schaugg</dd></div>
+            <div><dt>Fokus</dt><dd lang="en">Multilingual AI Support</dd></div>
+            <div><dt>Status</dt><dd>Seit 08/2026 in Entwicklung · Pilotprojekt im Rahmen des Accelerators</dd></div>
+          </dl>
+        </aside>
+      </div>
+
+      <div class="grid dvv-concept">
+        <p class="note dvv-note">Probieren Sie die Sprachen aus ↓</p>
+        <figure class="chat comic reveal" data-chat="dvv" aria-label="Interaktive Konzeptskizze des mehrsprachigen Assistenten">
+          <div class="chat__head"><span>Assistent · vhs-Lernportal</span><span class="chat__note">Interaktive Konzeptskizze · kein Produktstand</span></div>
+          <div class="chat__langs" role="group" aria-label="Sprache wählen"><button type="button" class="chat__lang" data-lang="de" aria-pressed="false">Deutsch</button><button type="button" class="chat__lang" data-lang="en" aria-pressed="false">English</button><button type="button" class="chat__lang is-on" data-lang="uk" aria-pressed="true">Українська</button><button type="button" class="chat__lang" data-lang="tr" aria-pressed="false">Türkçe</button><button type="button" class="chat__lang" data-lang="ar" aria-pressed="false" lang="ar" dir="rtl">العربية</button><button type="button" class="chat__lang" data-lang="ls" aria-pressed="false">Einfache Sprache</button></div>
+          <div class="chat__log" aria-live="polite">
+            <p class="bubble bubble--user" lang="uk">Як записатися на курс німецької мови?</p>
+            <div class="bubble bubble--bot"><span lang="uk">Я допоможу. Спочатку кілька запитань про ваш рівень німецької.</span><span class="bubble__trans">Ich helfe gern. Zuerst ein paar Fragen zu Ihrem Deutschniveau.</span></div>
+            <div class="chat__options" lang="uk"><button type="button" class="chat__option">Я тільки починаю</button><button type="button" class="chat__option">A2 – B1</button><button type="button" class="chat__option">Не знаю</button></div>
+          </div>
+          <figcaption class="chat__foot"><span>Menschliche Beratung bleibt jederzeit erreichbar.</span><span class="chat__human">Persönliche Beratung anfragen</span></figcaption>
+        </figure>
+
+        <div class="intents">
+          <p class="label">Anliegen unterscheiden</p>
+          <p class="intents__lead">Nicht jede Frage ist eine Supportfrage. Das System soll erkennen, was jemand eigentlich braucht.</p>
+          <ol class="stagger">
+            <li class="intent" style="--i: 0;"><span class="intent__num">01</span><span><span class="intent__title">Supportfrage</span><span class="intent__text">Technische und organisatorische Fragen rund um das Portal beantworten.</span></span></li>
+            <li class="intent" style="--i: 1;"><span class="intent__num">02</span><span><span class="intent__title">Bildungsbedarf</span><span class="intent__text">Verstehen, was jemand lernen möchte und mit welchen Voraussetzungen.</span></span></li>
+            <li class="intent" style="--i: 2;"><span class="intent__num">03</span><span><span class="intent__title">Passendes Angebot</span><span class="intent__text">Geeignete Lernangebote auffindbar machen – auch bei geringen Deutschkenntnissen.</span></span></li>
+            <li class="intent" style="--i: 3;"><span class="intent__num">04</span><span><span class="intent__title">Übergabe an Menschen</span><span class="intent__text">Erkennen, wann persönliche Beratung der bessere Weg ist.</span></span></li>
+          </ol>
+        </div>
+      </div>
+
+      <div class="process">
+        <p class="label">Vorgehen im Projekt</p>
+        <ol class="process__list stagger">
+          <li class="process__step" style="--i: 0;"><span class="process__en" lang="en">Understand <span class="process__arrow" aria-hidden="true">→</span></span><span class="process__de">Nutzergruppen, Supportanfragen und Zugangshürden verstehen.</span></li>
+          <li class="process__step" style="--i: 1;"><span class="process__en" lang="en">Structure <span class="process__arrow" aria-hidden="true">→</span></span><span class="process__de">Anliegen, Wissen und Angebote strukturieren.</span></li>
+          <li class="process__step" style="--i: 2;"><span class="process__en" lang="en">Prototype <span class="process__arrow" aria-hidden="true">→</span></span><span class="process__de">Mehrsprachigen Assistenten prototypisch umsetzen.</span></li>
+          <li class="process__step" style="--i: 3;"><span class="process__en" lang="en">Test <span class="process__arrow" aria-hidden="true">→</span></span><span class="process__de">Mit realen Anforderungen und Nutzerperspektiven abgleichen.</span></li>
+          <li class="process__step" style="--i: 4;"><span class="process__en" lang="en">Integrate</span><span class="process__de">Anschluss an Portal und bestehende Beratung vorbereiten.</span></li>
+        </ol>
+      </div>
+
+      <ul class="tags dvv-tags" aria-label="Themen" lang="en">
+        <li class="tag">Conversational AI</li><li class="tag">Multilingual</li><li class="tag">Education</li><li class="tag">Responsible AI</li><li class="tag">Accessibility</li><li class="tag">Public Interest Technology</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ================= CASE 02 — NEUHIER ================= -->
+  <section class="section" id="neuhier" aria-labelledby="nh-title">
+    <div class="wrap grid nh-grid">
+      <div class="nh-text">
+        <div class="case-label reveal">
+          <span class="label label--strong">Case Study 02</span>
+          <span class="label">AI · Integration · Social Innovation</span>
+        </div>
+        <h2 class="case-title-sm reveal" id="nh-title">Vom digitalen Begleiter zur realen Verbindung.</h2>
+        <p class="case-name">NeuHier <a class="textlink case-link" href="https://neuhier.com" rel="noopener" target="_blank">neuhier.com <span class="arrow" aria-hidden="true">↗</span></a></p>
+        <p class="lead body-muted" style="font-size: 1.25rem;">NeuHier entwickelt digitale Unterstützung für internationale Studierende und Fachkräfte, die in Deutschland nicht nur ankommen, sondern sich langfristig zugehörig fühlen wollen.</p>
+        <p class="body-muted">Ein muttersprachlicher Begleiter erklärt kulturelle Codes, zeigt Stammtische, Vereine und Events – und macht sich mit jedem echten Kontakt ein Stück überflüssiger. Der KI-Begleiter Mio ist bewusst anti-parasozial konzipiert: Ziel sind echte menschliche Kontakte, nicht App-Bindung. Das Konzept stützt sich auf Akkulturations- und Einsamkeitsforschung; Wirkung soll über die Frankfurter Akkulturationsskala (FRAKK) messbar werden.</p>
+        <p class="case-thesis">NeuHier zeigt, wie Verhaltenswissenschaft, Public-Health-Forschung und KI-Produktentwicklung in einer digitalen Intervention zusammenkommen.</p>
+
+        <div>
+          <h3 class="block-title">Projektteam</h3>
+          <dl class="rows">
+            <div class="row-kv"><dt style="font-weight: 600;">Simon Schaugg</dt><dd class="body-muted">Brand Strategy, Business Development, Marketing &amp; Partnerships</dd></div>
+            <div class="row-kv"><dt style="font-weight: 600;">Robin Schaugg</dt><dd class="body-muted">Product &amp; Technology – technische Architektur von Mio</dd></div>
+            <div class="row-kv"><dt style="font-weight: 600;">Ziyue Zhang</dt><dd class="body-muted">Research, Public Health, Implementation Research</dd></div>
+          </dl>
+        </div>
+
+        <div>
+          <h3 class="block-title">Einordnung</h3>
+          <dl class="rows">
+            <div class="row-kv"><dt class="row-kv__k row-kv__k--accent">Ausgewählt</dt><dd>Civic Coding Accelerator 2026 – Lösungspartner für den DVV</dd></div>
+            <div class="row-kv"><dt class="row-kv__k row-kv__k--accent">Programm</dt><dd>startsocial-Stipendium 2026/27 – eine von 100 Initiativen, viermonatige Beratung durch Coaches aus der Wirtschaft</dd></div>
+            <div class="row-kv"><dt class="row-kv__k row-kv__k--accent">Finalist</dt><dd>International Founders Award 2026 – Local Final Hessen</dd></div>
+            <div class="row-kv"><dt class="row-kv__k row-kv__k--accent">Feature</dt><dd>Goethe-Universitätsmagazin EinBlick (07/2026)</dd></div>
+            <div class="row-kv"><dt class="row-kv__k">Beirat</dt><dd>Wissenschaftlicher Beirat u. a. mit Prof. Dr. Stephan Bongard (Goethe-Universität)</dd></div>
+            <div class="row-kv"><dt class="row-kv__k">Status</dt><dd>MVP live</dd></div>
+            <div class="row-kv"><dt class="row-kv__k">Kooperation</dt><dd>Kooperationsvereinbarung mit der EUROPA-Versicherung</dd></div>
+          </dl>
+        </div>
+      </div>
+
+      <div class="nh-visual">
+        <p class="note">Fragen Sie Mio etwas ↓</p>
+        <figure class="chat chat--paper comic reveal" data-chat="mio" aria-label="Interaktive Konzeptskizze von Mio, dem KI-Begleiter von NeuHier">
+          <div class="chat__head">
+            <span class="mio-id"><span class="mio-avatar" aria-hidden="true">M</span><span>Mio<small>KI-Begleiter von NeuHier</small></span></span>
+            <span class="chat__note">Interaktive Konzeptskizze</span>
+          </div>
+          <div class="chat__log" aria-live="polite">
+            <p class="bubble bubble--user" lang="en">My colleague said „Wir können uns gerne duzen“. What does that mean – and what do I say?</p>
+            <p class="bubble bubble--bot" lang="en">In German workplaces „Sie“ is the default. Offering „du“ is a small sign of trust. A friendly reply: „Gerne, ich bin …“ – and from then on you use first names.</p>
+          </div>
+          <div class="chat__ask" lang="en"><span class="chat__ask-label">Ask Mio</span><button type="button" class="chat__q" data-q="0" aria-pressed="true">Duzen?</button><button type="button" class="chat__q" data-q="1" aria-pressed="false">Sunday?</button><button type="button" class="chat__q" data-q="2" aria-pressed="false">Pfand?</button></div>
+          <div class="suggest" lang="en"><span>Want to practise? Find a local meetup or community group near you.</span><button type="button" class="suggest__btn" aria-expanded="false">Show options</button></div>
+          <p class="suggest__note" hidden>Konzeptskizze: Hier würde Mio passende Treffen in Ihrer Nähe vorschlagen.</p>
+        </figure>
+
+        <div>
+          <h3 class="block-title">Vom Ankommen zum Dazugehören</h3>
+          <ol class="journey stagger">
+            <li class="journey__step" style="--i: 0;"><span class="journey__num">01</span><span class="journey__title">Ankommen</span><span class="journey__text">Orientierung im neuen Alltag.</span></li>
+            <li class="journey__step" style="--i: 1;"><span class="journey__num">02</span><span class="journey__title">Verstehen</span><span class="journey__text">Kulturelle Situationen einordnen.</span></li>
+            <li class="journey__step" style="--i: 2;"><span class="journey__num">03</span><span class="journey__title">Teilnehmen</span><span class="journey__text">Aktivitäten, Events und Communities finden.</span></li>
+            <li class="journey__step" style="--i: 3;"><span class="journey__num">04</span><span class="journey__title">Dazugehören</span><span class="journey__text">Echte Kontakte, langfristig.</span></li>
+          </ol>
+        </div>
+
+        <figure class="photo reveal">
+          <img src="assets/neuhier-pitch.jpg" alt="Pitch von NeuHier vor Publikum, auf der Leinwand eine Folie zu Mio, dem kulturellen KI-Begleiter" width="1400" height="1050" loading="lazy">
+          <figcaption>NeuHier-Pitch · International Founders Award, Local Final Hessen 2026</figcaption>
+        </figure>
+
+        <p class="nh-principle reveal">Technologie soll reale soziale Integration unterstützen – nicht menschliche Beziehungen ersetzen.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= CASE 03 — YOLD ================= -->
+  <section class="section is-sand yold" id="yold" aria-labelledby="yold-title">
+    <div class="wrap grid yold-grid">
+      <div class="yold-media">
+        <img class="yold-media__hero" src="assets/yold/community.jpg" alt="YOLD-Gruppenrunde: Jüngere und Ältere sitzen im Stuhlkreis, auf der Leinwand das YOLD-Logo" width="1600" height="1200" loading="lazy">
+        <img src="assets/yold/tandem.jpg" alt="Eine Studentin und ein älterer Herr im Gespräch" width="1000" height="750" loading="lazy">
+        <img src="assets/yold/treffen.jpg" alt="Teilnehmende verschiedener Generationen stehen bei einem YOLD-Treffen zusammen" width="1000" height="750" loading="lazy">
+        <p class="yold-media__caption">Gruppenrunden, erste Tandems, Gespräche – YOLD-Treffen in Frankfurt</p>
+      </div>
+
+      <div class="yold-text">
+        <div class="case-label reveal">
+          <span class="label label--strong">Case Study 03</span>
+          <span class="label">Social Innovation · Community · Digital Platform</span>
+        </div>
+        <h2 class="case-title-sm reveal" id="yold-title">Wissen, das bereits da ist, zugänglich machen.</h2>
+        <p class="case-name">YOLD <span class="case-name__sub">Young to Old</span></p>
+        <div class="case-links">
+          <a class="textlink" href="https://yold.info" rel="noopener" target="_blank">yold.info <span class="arrow" aria-hidden="true">↗</span></a>
+          <a class="textlink" href="https://yoldconnect.de" rel="noopener" target="_blank">yoldconnect.de <span class="arrow" aria-hidden="true">↗</span></a>
+        </div>
+        <p class="body-muted" style="font-size: 1.1875rem;">Menschen in unterschiedlichen Lebensphasen haben Wissen, Erfahrung und Fähigkeiten, die füreinander oft unzugänglich bleiben. YOLD verbindet sie – nicht das Alter steht im Mittelpunkt, sondern das, was Menschen voneinander lernen und miteinander erleben können. Entstanden ist die Initiative 2024 im ideellen Förderprogramm des Deutschlandstipendiums an der Goethe-Universität.</p>
+        <p class="body-muted" style="font-size: 1.1875rem;"><a href="https://yoldconnect.de" rel="noopener" target="_blank">YOLD Connect</a> ist der gemeinsame digitale Einstieg: Bundesweit geben Menschen dort ihr Wissen und ihre Erfahrung weiter, in Frankfurt entstehen dazu lokale Tandems und monatliche Community-Treffen. Keine App, die das Problem wegmoderiert, sondern Begegnung auf Augenhöhe.</p>
+
+        <!-- Kennzahlen: Anmeldungen und Tandems kommen live aus der YOLD-Datenbank (assets/yold-stats.js, dieselbe Quelle wie yold.info und simonschaugg.de). Die Zahl im HTML ist nur der Fallback. -->
+        <div class="metrics">
+          <dl>
+            <div class="metric"><dt>Anmeldungen</dt><dd><span data-yold="anmeldungen">170</span>+</dd></div>
+            <div class="metric"><dt>Tandems</dt><dd><span data-yold="tandems">60</span>+</dd></div>
+            <div class="metric"><dt>Begegnungen, die weiterwirken</dt><dd data-count="41">41</dd></div>
+          </dl>
+          <p class="label metrics__note">Anmeldungen &amp; Tandems live aus der YOLD-Datenbank, auf Zehner abgerundet</p>
+        </div>
+
+        <figure class="pullquote">
+          <blockquote><p>„Wir sind bewusst kein klassisches Mentoring, das die Karriere ankurbeln soll. Bei uns geht es um die Begegnung an sich, unabhängig davon, was wer geleistet hat.“</p></blockquote>
+          <figcaption>Simon Schaugg in der <a href="https://www.faz.net/aktuell/rhein-main/frankfurt/boomer-und-genz-gehen-miteinander-aus-projekt-yold-an-uni-frankfurt-200765724.html" rel="noopener" target="_blank">F.A.Z., 28.04.2026</a></figcaption>
+        </figure>
+
+        <div class="dice comic">
+          <svg class="dice__art" viewBox="0 0 150 96" aria-hidden="true">
+            <circle cx="40" cy="54" r="26" fill="#0E1726" transform="translate(3 3)"/>
+            <circle cx="40" cy="54" r="26" fill="#F4D3BC" stroke="#0E1726" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+            <circle cx="40" cy="24" r="11" fill="#B9C0CC" stroke="#0E1726" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+            <path d="M15 50 Q16 30 40 28 Q64 30 65 50 Q56 40 40 40 Q24 40 15 50 Z" fill="#B9C0CC" stroke="#0E1726" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+            <circle cx="32" cy="56" r="6" fill="none" stroke="#0E1726" stroke-width="2.5"/><circle cx="50" cy="56" r="6" fill="none" stroke="#0E1726" stroke-width="2.5"/><path d="M38 56 h6" stroke="#0E1726" stroke-width="2.5"/>
+            <path d="M34 68 q6 5 12 0" fill="none" stroke="#0E1726" stroke-width="2.5" stroke-linecap="round"/>
+            <circle cx="110" cy="54" r="26" fill="#0E1726" transform="translate(3 3)"/>
+            <circle cx="110" cy="54" r="26" fill="#F4D3BC" stroke="#0E1726" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+            <path d="M84 50 Q86 26 110 26 Q134 26 136 50 Z" fill="#2B4C7E" stroke="#0E1726" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+            <path d="M110 46 H142" stroke="#0E1726" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+            <circle cx="102" cy="58" r="3.5" fill="#0E1726"/><circle cx="118" cy="58" r="3.5" fill="#0E1726"/>
+            <path d="M103 68 q7 6 14 0" fill="none" stroke="#0E1726" stroke-width="2.5" stroke-linecap="round"/>
+            <g transform="rotate(14 75 80)"><rect x="66" y="70" width="18" height="18" rx="4" fill="#FBFAF6" stroke="#0E1726" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/><circle cx="71" cy="75" r="1.8" fill="#0E1726"/><circle cx="79" cy="83" r="1.8" fill="#0E1726"/></g>
+          </svg>
+          <div class="dice__body">
+            <p class="label">Wissens-Würfel</p>
+            <p class="dice__out" aria-live="polite">Tausche <strong id="dice-a">Sauerteig ansetzen</strong> gegen <strong id="dice-b">Instagram verstehen</strong>.</p>
+            <button class="btn btn--primary btn--sm" type="button" id="dice-roll"><svg class="dice__die" viewBox="0 0 24 24" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5" fill="#FBFAF6" stroke="currentColor" stroke-width="2"/><g fill="currentColor"><circle cx="8" cy="8" r="1.8"/><circle cx="16" cy="16" r="1.8"/><circle cx="12" cy="12" r="1.8"/></g></svg>Würfeln</button>
+            <p class="dice__note">Zufallsgenerator mit Augenzwinkern. Echte Tandems entstehen auf <a href="https://yoldconnect.de" rel="noopener" target="_blank">yoldconnect.de</a>.</p>
+          </div>
+        </div>
+
+        <dl class="rows">
+          <div class="row-kv"><dt class="row-kv__k">Programme</dt><dd><strong>Wissen teilen</strong> – Erfahrung aus Beruf, Hobby oder Leben weitergeben oder Orientierung finden; bundesweit, digital oder vor Ort.<br><strong>Gemeinschaft erleben</strong> – lokale Tandems und monatliche Community-Treffen in Frankfurt und Rhein-Main.</dd></div>
+          <div class="row-kv"><dt class="row-kv__k">Mitgründer</dt><dd>Simon Schaugg, Steffen Luhn, Carl Brammer</dd></div>
+          <div class="row-kv"><dt class="row-kv__k">Simons Rolle</dt><dd>Initiator, Mitgründer und Lead: Strategie, Leitung eines Teams von über 20 Personen, Marke, Partnerschaften, Pressearbeit und Förderanträge. yold.info und die Plattform YOLD Connect hat er selbst konzipiert und gebaut.</dd></div>
+          <div class="row-kv"><dt class="row-kv__k">Partner</dt><dd>Stiftung Polytechnische Gesellschaft Frankfurt, VHS Frankfurt (Plattform 55+), Universität des 3. Lebensalters, Bürgerinstitut Frankfurt, WeAid; im Programm der Frankfurter Bürger-Universität (WS 2026/27)</dd></div>
+          <div class="row-kv"><dt class="row-kv__k row-kv__k--accent">Finalist</dt><dd>Social Impact Award Germany 2026 · eines von 15 Finalist-Teams bundesweit, Inkubationsprogramm in Berlin und Wien</dd></div>
+          <div class="row-kv"><dt class="row-kv__k row-kv__k--accent">Award</dt><dd>Goethe-Award für YOLD (07/2025), verliehen beim Jahresfest des Deutschlandstipendiums</dd></div>
+          <div class="row-kv"><dt class="row-kv__k">Medien</dt><dd>F.A.Z., Journal Frankfurt, Frankfurter Neue Presse, Radio Frankfurt, UniReport, Social Impact Award u. a. – <a href="#presse">zum Pressespiegel</a></dd></div>
+        </dl>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= SELBST GEBAUT ================= -->
+  <section class="section" id="gebaut" aria-labelledby="build-title">
+    <div class="wrap">
+      <div class="grid section-head">
+        <div class="section-head__title reveal">
+          <p class="label">Selbst gebaut</p>
+          <h2 class="h2" id="build-title">Wir reden nicht nur über digitale Produkte.</h2>
+        </div>
+        <div class="section-head__aside reveal">
+          <p class="body-muted">Plattformen, Websites, ein KI-Begleiter und ein Online-Shop: Diese Produkte haben wir selbst konzipiert, gebaut und betrieben – parallel zu Studium und Beruf.</p>
+          <p class="note">Klicken erlaubt. Alles echt.</p>
+        </div>
+      </div>
+      <ul class="builds">
+        <li class="build comic reveal">
+          <div class="build__meta"><span class="build__status build__status--live">Live</span><span class="label">Plattform · Simon</span></div>
+          <h3 class="build__title">yoldconnect.de</h3>
+          <p class="build__text">Die digitale Plattform von YOLD: Mentor:innen-Profile, Suche und Filter, Match-Assistent, Anfragen und Mitgliederbereich – dazu eigene Admin- und Analytics-Tools.</p>
+          <ul class="tags"><li class="tag">React</li><li class="tag">Supabase</li><li class="tag">Cloudflare</li><li class="tag">KI-gestützt gebaut</li></ul>
+          <a class="textlink" href="https://yoldconnect.de" rel="noopener" target="_blank">yoldconnect.de <span class="arrow" aria-hidden="true">↗</span></a>
+        </li>
+        <li class="build comic reveal">
+          <div class="build__meta"><span class="build__status build__status--live">Live</span><span class="label">Website · Simon</span></div>
+          <h3 class="build__title">yold.info</h3>
+          <p class="build__text">Die Infoseite von YOLD mit Programmen, Terminen und Kennzahlen, die live aus der YOLD-Datenbank kommen.</p>
+          <ul class="tags"><li class="tag">Webdesign</li><li class="tag">Live-Daten</li><li class="tag">Supabase</li></ul>
+          <a class="textlink" href="https://yold.info" rel="noopener" target="_blank">yold.info <span class="arrow" aria-hidden="true">↗</span></a>
+        </li>
+        <li class="build comic reveal">
+          <div class="build__meta"><span class="build__status build__status--prototyp">Live-Prototyp</span><span class="label">KI-Begleiter · Robin · Team</span></div>
+          <h3 class="build__title">NeuHier · Mio</h3>
+          <p class="build__text">Live-Prototyp von Mio mit Chat, Event-Radar, Screenshot-Analyse kultureller Situationen und einem „Social Tree“, der mit jedem echten Kontakt wächst. Robin verantwortet die technische Architektur.</p>
+          <ul class="tags"><li class="tag">Claude API</li><li class="tag">Agentic Workflows</li><li class="tag">Multilingual</li></ul>
+          <a class="textlink" href="https://www.neuhier.com" rel="noopener" target="_blank">neuhier.com <span class="arrow" aria-hidden="true">↗</span></a>
+        </li>
+        <li class="build reveal">
+          <div class="build__meta"><span class="build__status build__status--beruflich">2024–2026</span><span class="label">B2B-SaaS · Robin</span></div>
+          <h3 class="build__title">Photovate</h3>
+          <p class="build__text">Von 2024 bis 2026 hat Robin als Produktmanager die Plattform von Photovate weiterentwickelt: Projektmanagement, CRM und ERP für Solarunternehmen – inklusive neuer Funktionen und Produkt-Updates für Kund:innen.</p>
+          <ul class="tags"><li class="tag">Produktmanagement</li><li class="tag">B2B-SaaS</li><li class="tag">Roadmap</li></ul>
+          <span class="build__nolink">Kundensystem, nicht öffentlich</span>
+        </li>
+        <li class="build comic reveal">
+          <div class="build__meta"><span class="build__status build__status--live">Live</span><span class="label">E-Commerce · Simon</span></div>
+          <h3 class="build__title">RoyalTies</h3>
+          <p class="build__text">Kuratierter Online-Handel mit Designer-Krawatten: eigener Shop, Verkauf über mehrere Kanäle und ein KI-gestütztes System für Bestand, Preise und Analytics. Über 140 verkaufte Krawatten, Break-even nach sechs Wochen.</p>
+          <ul class="tags"><li class="tag">Shopify</li><li class="tag">KI-Analytics</li><li class="tag">Multichannel</li></ul>
+          <a class="textlink" href="https://royalties-accessories.com" rel="noopener" target="_blank">royalties-accessories.com <span class="arrow" aria-hidden="true">↗</span></a>
+        </li>
+        <li class="build comic reveal">
+          <div class="build__meta"><span class="build__status build__status--live">Live</span><span class="label">Portfolio · Simon</span></div>
+          <h3 class="build__title">simonschaugg.de</h3>
+          <p class="build__text">Persönliche Website mit Pressebereich, Forschung, Kunst und Live-Kennzahlen aus der YOLD-Datenbank.</p>
+          <ul class="tags"><li class="tag">Webdesign</li><li class="tag">Live-Daten</li><li class="tag">GitHub Pages</li></ul>
+          <a class="textlink" href="https://simonschaugg.de" rel="noopener" target="_blank">simonschaugg.de <span class="arrow" aria-hidden="true">↗</span></a>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ================= ANSATZ ================= -->
+  <section class="section is-paper" id="ansatz" aria-labelledby="approach-title" style="border-top: 1px solid var(--line);">
+    <div class="wrap">
+      <div class="grid approach-head">
+        <div class="approach-title">
+          <p class="label">Wie wir arbeiten</p>
+          <h2 id="approach-title" class="reveal">Erst verstehen.<br>Dann bauen.</h2>
+          <div class="bot-check">
+            <svg class="bot-mini" viewBox="0 0 120 150" aria-hidden="true">
+              <path d="M60 30 V16" stroke="#0E1726" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/><circle class="bot-bulb" cx="60" cy="12" r="7" stroke="#0E1726" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+              <rect x="26" y="36" width="80" height="64" rx="14" fill="#0E1726"/>
+              <rect x="20" y="30" width="80" height="64" rx="14" fill="#FBFAF6" stroke="#0E1726" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+              <rect x="30" y="42" width="60" height="40" rx="8" fill="#0E1726"/>
+              <g class="bot-wait" fill="#EBA27C"><circle cx="48" cy="58" r="4"/><circle cx="72" cy="58" r="4"/><path d="M50 72 h20" stroke="#EBA27C" stroke-width="3" stroke-linecap="round"/></g>
+              <g class="bot-happy" fill="none" stroke="#EBA27C" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><path d="M42 62 l6 -7 l6 7 M66 62 l6 -7 l6 7"/><path d="M50 72 q10 6 20 0"/></g>
+              <rect x="40" y="94" width="40" height="8" fill="#ECE7DC" stroke="#0E1726" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+              <rect x="30" y="102" width="60" height="42" rx="10" fill="#E3E8F0" stroke="#0E1726" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+              <circle cx="46" cy="122" r="5" fill="#A8461A" stroke="#0E1726" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/><circle cx="60" cy="122" r="5" fill="#2B4C7E" stroke="#0E1726" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/><circle cx="74" cy="122" r="5" fill="#0E1726"/>
+            </svg>
+            <div class="bot-check__say">
+              <p class="say" id="check-say" aria-live="polite">Darf ich schon bauen?</p>
+              <p class="check-progress"><span id="check-count">0</span> von 7 geklärt</p>
+              <span class="check-meter" id="check-meter" aria-hidden="true"></span>
+            </div>
+          </div>
+        </div>
+        <div class="questions">
+          <p>Bevor wir über Tools sprechen, klären wir: <span class="note">(Klicken Sie ruhig mit.)</span></p>
+          <ol class="stagger" data-checklist>
+            <li class="question" style="--i: 0;"><button type="button" class="q-btn" aria-pressed="false"><span class="q-box" aria-hidden="true"></span><span class="q-num">01</span><span>Was ist das eigentliche Problem?</span></button></li>
+            <li class="question" style="--i: 1;"><button type="button" class="q-btn" aria-pressed="false"><span class="q-box" aria-hidden="true"></span><span class="q-num">02</span><span>Wer sind die Nutzer:innen?</span></button></li>
+            <li class="question" style="--i: 2;"><button type="button" class="q-btn" aria-pressed="false"><span class="q-box" aria-hidden="true"></span><span class="q-num">03</span><span>Woran scheitert das bestehende Angebot?</span></button></li>
+            <li class="question" style="--i: 3;"><button type="button" class="q-btn" aria-pressed="false"><span class="q-box" aria-hidden="true"></span><span class="q-num">04</span><span>Wo schafft Technologie echten Mehrwert?</span></button></li>
+            <li class="question" style="--i: 4;"><button type="button" class="q-btn" aria-pressed="false"><span class="q-box" aria-hidden="true"></span><span class="q-num">05</span><span>Was sollte menschlich bleiben?</span></button></li>
+            <li class="question" style="--i: 5;"><button type="button" class="q-btn" aria-pressed="false"><span class="q-box" aria-hidden="true"></span><span class="q-num">06</span><span>Wie lässt sich ein Prototyp schnell testen?</span></button></li>
+            <li class="question" style="--i: 6;"><button type="button" class="q-btn" aria-pressed="false"><span class="q-box" aria-hidden="true"></span><span class="q-num">07</span><span>Wie kann die Lösung realistisch umgesetzt werden?</span></button></li>
+          </ol>
+        </div>
+      </div>
+
+      <ol class="steps stagger">
+        <li class="step" style="--i: 0;">
+          <span class="step__num">01</span><span class="step__en" lang="en">Understand</span>
+          <p class="step__de">Wir beginnen beim Problem, nicht beim Tool.</p>
+          <span class="step__label">Wir verstehen</span>
+          <ul class="step__items"><li>Nutzerbedürfnisse</li><li>Organisatorische Rahmenbedingungen</li><li>Bestehende Prozesse</li><li>Stakeholder &amp; Anreize</li><li>Zugangshürden</li></ul>
+        </li>
+        <li class="step" style="--i: 1;">
+          <span class="step__num">02</span><span class="step__en" lang="en">Define</span>
+          <p class="step__de">Wir definieren den Anwendungsfall – und wo Technologie tatsächlich Mehrwert schafft.</p>
+          <span class="step__label">Ergebnisse</span>
+          <ul class="step__items"><li>Problem Framing</li><li>Use-Case-Definition</li><li>User Journeys</li><li>Anforderungen</li><li>Erfolgskriterien</li></ul>
+        </li>
+        <li class="step" style="--i: 2;">
+          <span class="step__num">03</span><span class="step__en" lang="en">Prototype</span>
+          <p class="step__de">Ideen werden schnell greifbar.</p>
+          <span class="step__label">Wir bauen</span>
+          <ul class="step__items"><li>Klickbare Konzepte</li><li>KI-Prototypen</li><li>Workflows</li><li>Interfaces</li><li>MVPs</li></ul>
+        </li>
+        <li class="step" style="--i: 3;">
+          <span class="step__num">04</span><span class="step__en" lang="en">Test</span>
+          <p class="step__de">Lösungen werden mit realen Anforderungen und Nutzerperspektiven abgeglichen.</p>
+          <span class="step__label">Wir prüfen</span>
+          <ul class="step__items"><li>Usability</li><li>Nützlichkeit</li><li>Vertrauen</li><li>Barrierefreiheit</li><li>Machbarkeit</li></ul>
+        </li>
+        <li class="step" style="--i: 4;">
+          <span class="step__num">05</span><span class="step__en" lang="en">Implement</span>
+          <p class="step__de">Was funktioniert, wird in reale Strukturen übersetzt.</p>
+          <span class="step__label">Wir setzen um</span>
+          <ul class="step__items"><li>Systemintegration</li><li>Prozessdesign</li><li>Adoption im Team</li><li>Iteration</li><li>Skalierung</li></ul>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ================= TEAM ================= -->
+  <section class="section team" id="ueber-uns" aria-labelledby="team-title">
+    <div class="wrap">
+      <div class="grid section-head">
+        <div class="section-head__title reveal">
+          <p class="label">Über uns</p>
+          <h2 class="h2" id="team-title">Zwei Perspektiven. Ein gemeinsamer Ansatz.</h2>
+        </div>
+        <p class="section-head__aside body-muted reveal">Wir kommen aus unterschiedlichen Disziplinen. Genau darin liegt unsere Stärke: Psychologie und gesellschaftliche Innovation auf der einen Seite, Produktentwicklung und Technologie auf der anderen.</p>
+      </div>
+
+      <div class="people">
+        <article class="person reveal" aria-labelledby="p-simon">
+          <img class="person__photo" src="assets/simon.jpg" alt="Simon Schaugg" width="900" height="1125" loading="lazy">
+          <div class="person__intro">
+            <p class="person__role">STRATEGY · PSYCHOLOGY · SOCIAL INNOVATION</p>
+            <h3 class="person__name" id="p-simon">Simon Schaugg</h3>
+            <p class="person__title" lang="en">Strategy &amp; Human-Centered Innovation</p>
+            <p class="person__bio">Simon verbindet psychologische Forschung, gesellschaftliche Innovation und unternehmerische Umsetzung. Sein Schwerpunkt liegt darauf, komplexe Herausforderungen aus Nutzerperspektive zu verstehen und daraus tragfähige Konzepte, digitale Angebote und institutionelle Partnerschaften zu entwickeln. Ab Oktober 2026 vertieft er diese Perspektive im Master Psychologie und parallel im Bachelor Politikwissenschaft und Volkswirtschaftslehre.</p>
+          </div>
+          <div class="person__details">
+            <div>
+              <h4 class="block-title">Hintergrund</h4>
+              <ul>
+                <li class="bg-item">M.Sc. Psychologie (ab WS 2026/27) – Schwerpunkte Arbeits- &amp; Organisationspsychologie, Sozialpsychologie und Neurowissenschaften; zusätzlich Microcredential „AI in Education“</li>
+                <li class="bg-item">B.A. Politikwissenschaft und Volkswirtschaftslehre (ab WS 2026/27)</li>
+                <li class="bg-item">B.Sc. Psychologie, Note 1,2 – beste 5 % des Fachsemesters</li>
+                <li class="bg-item">Initiator, Mitgründer und Lead von YOLD · Gründer von YOLD Connect</li>
+                <li class="bg-item">Mitgründer von NeuHier – Head of Brand Strategy, Business Development, Marketing &amp; Partnerships</li>
+                <li class="bg-item">Finalist Movers of Tomorrow Award 2026 (Allianz Foundation)</li>
+                <li class="bg-item">Experte zum Übergang in den Ruhestand: Titelseiten-Interview in der F.A.S. (30.08.2026), BILD am Sonntag (18.10.2026)</li>
+                <li class="bg-item">Expertenbeitrag zur Praxisabgabe aus sozialpsychologischer Perspektive – Fortbildung der Landesärztekammer Rheinland-Pfalz, Mainz (21.10.2026)</li>
+                <li class="bg-item">Deutschlandstipendium (2024/25 und 2026/27) · e-fellows.net (seit 2025)</li>
+                <li class="bg-item">Konzipiert und baut eigene Plattformen und Websites – yoldconnect.de, yold.info, simonschaugg.de – KI-gestützt mit Claude, Lovable und Supabase</li>
+                <li class="bg-item">Klinisches Praktikum: eigene Beratungsgespräche und psychologische Testdiagnostik</li>
+                <li class="bg-item">Zertifikate u. a. Innovation &amp; Entrepreneurship und Projektmanagement (Goethe-Universität), Design Thinking (ZEIT Akademie), Marketingstrategie (University of London)</li>
+              </ul>
+            </div>
+            <div style="display: flex; flex-direction: column; gap: 10px;">
+              <h4 class="block-title">Expertise</h4>
+              <ul class="tags" lang="en"><li class="tag">Behavioral Science</li><li class="tag">Psychology</li><li class="tag">Social Innovation</li><li class="tag">User Perspective</li><li class="tag">Strategy</li><li class="tag">Partnerships</li><li class="tag">Communication</li><li class="tag">Public Speaking</li><li class="tag">AI Prototyping</li><li class="tag">Stakeholder Management</li></ul>
+              <span class="person__links"><a class="textlink" href="https://www.linkedin.com/in/simonschaugg" rel="noopener" target="_blank">Simon auf LinkedIn <span class="arrow" aria-hidden="true">↗</span></a><a class="textlink" href="https://www.simonschaugg.de" rel="noopener" target="_blank">simonschaugg.de <span class="arrow" aria-hidden="true">↗</span></a></span>
+            </div>
+          </div>
+        </article>
+
+        <article class="person reveal" aria-labelledby="p-robin">
+          <img class="person__photo" src="assets/robin.jpg" alt="Robin Schaugg" width="900" height="1125" loading="lazy">
+          <div class="person__intro">
+            <p class="person__role">PRODUCT · TECHNOLOGY · AI</p>
+            <h3 class="person__name" id="p-robin">Robin Schaugg</h3>
+            <p class="person__title" lang="en">Product &amp; AI</p>
+            <p class="person__bio">Robin übersetzt komplexe Anforderungen in digitale Produkte und technische Systeme. Als freiberuflicher KI-Strategieberater automatisiert er Prozesse; zuvor hat er als Produktmanager bei Photovate eine SaaS-Plattform für Solarunternehmen weiterentwickelt. Bei NeuHier verantwortet er die technische Architektur von Mio.</p>
+          </div>
+          <div class="person__details">
+            <div>
+              <h4 class="block-title">Hintergrund</h4>
+              <ul>
+                <li class="bg-item">Mitgründer von NeuHier – Head of Product &amp; Technology, verantwortlich für Mio</li>
+                <li class="bg-item">Leitet das NeuHier-Projektteam im Civic Coding Accelerator 2026 mit dem Deutschen Volkshochschul-Verband</li>
+                <li class="bg-item">Produktmanager bei Photovate GmbH (2024–2026) – SaaS für Projektmanagement in der Solarbranche</li>
+                <li class="bg-item">Freiberuflicher KI-Strategieberater (seit 2026) – IT-Prozessautomatisierung, u. a. mit n8n</li>
+                <li class="bg-item">B.Sc. Biowissenschaften, Universität Heidelberg</li>
+                <li class="bg-item">Erweiterter Vorstand, MeinungsBildung e.V.</li>
+                <li class="bg-item">Podcast-Gast bei Best Practice Startup Club: <a href="https://www.podcast.de/episode/702189910/migration-nach-deutschland-neuhiercom-mit-robin-schaugg" rel="noopener" target="_blank">„Migration nach Deutschland (neuhier.com)“</a> (12/2025)</li>
+              </ul>
+            </div>
+            <div style="display: flex; flex-direction: column; gap: 10px;">
+              <h4 class="block-title">Expertise</h4>
+              <ul class="tags" lang="en"><li class="tag">AI Systems</li><li class="tag">Agentic Workflows</li><li class="tag">Product Strategy</li><li class="tag">Process Automation</li><li class="tag">n8n</li><li class="tag">Product Management</li><li class="tag">Technical Architecture</li><li class="tag">Prototyping</li><li class="tag">Implementation</li></ul>
+              <a class="textlink" href="https://www.linkedin.com/in/robin-schaugg-302b01218/" rel="noopener" target="_blank">Robin auf LinkedIn <span class="arrow" aria-hidden="true">↗</span></a>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <div class="grid overlap">
+        <figure class="overlap__figure">
+          <svg class="venn" viewBox="-40 0 840 460" role="img" aria-labelledby="venn-title">
+            <title id="venn-title">Simons und Robins Perspektiven überschneiden sich in menschenzentrierter Technologie</title>
+            <g class="venn__left">
+              <circle cx="260" cy="230" r="210" fill="none" stroke="#0E1726" stroke-width="1.5"/>
+              <text class="venn__label" x="110" y="120">SIMON</text>
+              <text x="110" y="182" font-size="19">Human behavior</text>
+              <text x="110" y="214" font-size="19">Psychology</text>
+              <text x="110" y="246" font-size="19">Strategy</text>
+              <text x="110" y="278" font-size="19">Stakeholders</text>
+              <text x="110" y="310" font-size="19">Social Innovation</text>
+            </g>
+            <g class="venn__right">
+              <circle cx="500" cy="230" r="210" fill="none" stroke="#2B4C7E" stroke-width="1.5"/>
+              <text class="venn__label venn__label--robin" x="650" y="120" text-anchor="end">ROBIN</text>
+              <text x="650" y="182" font-size="19" text-anchor="end">Technology</text>
+              <text x="650" y="214" font-size="19" text-anchor="end">AI</text>
+              <text x="650" y="246" font-size="19" text-anchor="end">Product</text>
+              <text x="650" y="278" font-size="19" text-anchor="end">Systems</text>
+              <text x="650" y="310" font-size="19" text-anchor="end">Implementation</text>
+            </g>
+            <g class="venn__center">
+              <text class="venn__center" x="380" y="222" text-anchor="middle">Human-centered</text>
+              <text class="venn__center" x="380" y="248" text-anchor="middle">technology</text>
+            </g>
+          </svg>
+        </figure>
+        <div class="overlap__text reveal">
+          <p class="overlap__claim">Komplexe digitale Projekte scheitern selten nur an Technologie.</p>
+          <p class="body-muted" style="font-size: 1.25rem;">Sie scheitern daran, dass Nutzer, Prozesse, Organisation und Technik nicht zusammen gedacht werden.</p>
+          <p class="label overlap__small">Kleines Team · Direkte Zusammenarbeit · Schnelle Iteration</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= FÜR WEN ================= -->
+  <section class="section" id="fuer-wen" aria-labelledby="aud-title">
+    <div class="wrap">
+      <div class="grid section-head">
+        <div class="section-head__title reveal">
+          <p class="label">Zusammenarbeit</p>
+          <h2 class="h2 h2--sm" id="aud-title">Für wen wir arbeiten</h2>
+        </div>
+        <p class="section-head__aside body-muted reveal">Organisationen, mit denen wir zusammenarbeiten möchten – überall dort, wo digitale Angebote Menschen erreichen sollen.</p>
+      </div>
+      <ul class="audiences stagger">
+        <li class="audience" style="--i: 0;"><h3>Öffentliche Institutionen</h3><p>Digitalisierung, KI-Services, Zugänglichkeit und neue digitale Angebote.</p></li>
+        <li class="audience" style="--i: 1;"><h3>Bildung</h3><p>Digitale Lernangebote, intelligente Assistenzsysteme und bessere Nutzerführung.</p></li>
+        <li class="audience" style="--i: 2;"><h3>Verbände &amp; Stiftungen</h3><p>Wissen zugänglich machen, Angebote skalieren und digitale Services entwickeln.</p></li>
+        <li class="audience" style="--i: 0;"><h3>NGOs &amp; Social Impact</h3><p>Digitale Infrastruktur und Technologie für gesellschaftliche Wirkung.</p></li>
+        <li class="audience" style="--i: 1;"><h3>Hochschulen &amp; Forschung</h3><p>Forschung in nutzbare digitale Produkte übersetzen.</p></li>
+        <li class="audience" style="--i: 2;"><h3 lang="en">Mission-driven Companies</h3><p>Technologie, Produktstrategie und gesellschaftliche Verantwortung verbinden.</p></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ================= FORMATE ================= -->
+  <section class="section is-sand" id="formate" aria-labelledby="formats-title">
+    <div class="wrap">
+      <div class="grid section-head">
+        <div class="section-head__title reveal">
+          <p class="label">Formate</p>
+          <h2 class="h2 h2--sm" id="formats-title">Wie wir unterstützen können</h2>
+        </div>
+        <p class="section-head__aside body-muted reveal">Beispiele, keine Pakete: Jedes Projekt wird individuell auf Ausgangslage, Organisation und Ziel zugeschnitten.</p>
+      </div>
+
+      <div class="formats__head label" aria-hidden="true">
+        <span class="formats__col-a">Format</span><span class="formats__col-b">Für wen</span><span class="formats__col-c">Mögliche Ergebnisse</span>
+      </div>
+      <div class="formats">
+        <article class="format reveal">
+          <div class="format__name"><span>01</span><h3 lang="en">AI Discovery Sprint</h3></div>
+          <p class="format__for">Für Organisationen, die wissen, dass KI relevant ist – aber noch nicht, wo sie Wert schafft.</p>
+          <ul class="tags" aria-label="Mögliche Ergebnisse"><li class="tag">Use Cases identifizieren</li><li class="tag">Chancen priorisieren</li><li class="tag">Realistische nächste Schritte</li></ul>
+        </article>
+        <article class="format reveal">
+          <div class="format__name"><span>02</span><h3 lang="en">Prototype / MVP</h3></div>
+          <p class="format__for">Für eine konkrete Idee, die schnell greifbar werden soll.</p>
+          <ul class="tags" aria-label="Mögliche Ergebnisse"><li class="tag">Prototyp</li><li class="tag">Interface</li><li class="tag">KI-Workflow</li><li class="tag">MVP</li><li class="tag">Testkonzept</li></ul>
+        </article>
+        <article class="format reveal">
+          <div class="format__name"><span>03</span><h3 lang="en">AI Service Design</h3></div>
+          <p class="format__for">Für Organisationen, die einen bestehenden Service rund um Nutzerbedürfnisse und KI neu gestalten wollen.</p>
+          <ul class="tags" aria-label="Mögliche Ergebnisse"><li class="tag">Service-Konzept</li><li class="tag">Human-in-the-loop-Konzept</li><li class="tag">Prototyp</li></ul>
+        </article>
+        <article class="format reveal">
+          <div class="format__name"><span>04</span><h3 lang="en">Digital Product Strategy</h3></div>
+          <p class="format__for">Von der Problemdefinition bis zu Roadmap und technischem Konzept.</p>
+          <ul class="tags" aria-label="Mögliche Ergebnisse"><li class="tag">Problemdefinition</li><li class="tag">Roadmap</li><li class="tag">Technisches Konzept</li></ul>
+        </article>
+        <article class="format reveal">
+          <div class="format__name"><span>05</span><h3 lang="en">Pilot Partnership</h3></div>
+          <p class="format__for">Für öffentliche Institutionen, Verbände und Organisationen, die neue Ansätze gemeinsam erproben wollen.</p>
+          <ul class="tags" aria-label="Mögliche Ergebnisse"><li class="tag">Gemeinsamer Pilot</li><li class="tag">Erprobung im Alltag</li><li class="tag">Entscheidungsgrundlage</li></ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= RECOGNITION / ÖKOSYSTEM ================= -->
+  <section class="section" id="oekosystem" aria-labelledby="rec-title">
+    <div class="wrap">
+      <div class="grid section-head">
+        <div class="section-head__title reveal">
+          <p class="label">Recognition · Ecosystem</p>
+          <h2 class="h2" id="rec-title">Ausgewählt, unterstützt, sichtbar.</h2>
+        </div>
+        <p class="section-head__aside body-muted reveal">Wir unterscheiden bewusst: Partner, Programme, Auszeichnungen und akademisches Umfeld sind nicht dasselbe – und keine Kund:innen.</p>
+      </div>
+
+      <div class="recognition__head label" aria-hidden="true">
+        <span style="grid-column: 1 / span 2;">Art</span><span style="grid-column: 3 / span 4;">Organisation / Programm</span><span style="grid-column: 7 / span 4;">Einordnung</span><span style="grid-column: 11 / span 2; text-align: right;">Projekt</span>
+      </div>
+      <!-- Einträge hier pflegen -->
+      <ul class="recognition">
+        <li class="rec reveal"><span class="rec__type"><span>Accelerator</span></span><span class="rec__name">Civic Coding Accelerator 2026</span><span class="rec__text">Ausgewählt als KI-Lösungspartner im Innovationsnetz KI für das Gemeinwohl.</span><span class="rec__project">NeuHier-Team</span></li>
+        <li class="rec reveal"><span class="rec__type"><span>Partner</span></span><span class="rec__name">Deutscher Volkshochschul-Verband e. V.</span><span class="rec__text">Aktueller Kooperationspartner im Rahmen von Civic Coding (Challenge C08).</span><span class="rec__project">Civic Coding</span></li>
+        <li class="rec reveal"><span class="rec__type"><span>Finalist</span></span><span class="rec__name">Movers of Tomorrow 2026</span><span class="rec__text">Persönlicher Award der Allianz Foundation – Finalist als Initiator von YOLD.</span><span class="rec__project">Simon</span></li>
+        <li class="rec reveal"><span class="rec__type"><span>Finalist</span></span><span class="rec__name">Social Impact Award Germany 2026</span><span class="rec__text">Eines von 15 Finalist-Teams bundesweit, dreimonatiges Inkubationsprogramm in Berlin und Wien.</span><span class="rec__project">YOLD</span></li>
+        <li class="rec reveal"><span class="rec__type"><span>Local Final</span></span><span class="rec__name">International Founders Award 2026</span><span class="rec__text">Finalist im Local Final Hessen.</span><span class="rec__project">NeuHier</span></li>
+        <li class="rec reveal"><span class="rec__type"><span>Universität</span></span><span class="rec__name">Goethe-Universität Frankfurt</span><span class="rec__text">Akademisches Umfeld; Feature im Universitätsmagazin EinBlick, Berichte im UniReport.</span><span class="rec__project">NeuHier · YOLD</span></li>
+        <li class="rec reveal"><span class="rec__type"><span>Award</span></span><span class="rec__name">Goethe-Award</span><span class="rec__text">Verliehen beim Jahresfest des Deutschlandstipendiums (07/2025).</span><span class="rec__project">YOLD</span></li>
+        <li class="rec reveal"><span class="rec__type"><span>Ökosystem</span></span><span class="rec__name">Goethe Startup School</span><span class="rec__text">Gründungsintensivkurs und Entrepreneurship-Ausbildung.</span><span class="rec__project">Simon</span></li>
+        <li class="rec reveal"><span class="rec__type"><span>Programm</span></span><span class="rec__name">startsocial-Stipendium 2026/27</span><span class="rec__text">Eine von 100 Initiativen bundesweit; viermonatige Beratung durch Coaches aus der Wirtschaft.</span><span class="rec__project">NeuHier</span></li>
+        <li class="rec reveal"><span class="rec__type"><span>Vortrag</span></span><span class="rec__name">Landesärztekammer Rheinland-Pfalz</span><span class="rec__text">Expertenbeitrag „Was bleibt, wenn die Praxis geht?“ bei einer Fortbildung zur Praxisabgabe, Mainz (10/2026).</span><span class="rec__project">Simon</span></li>
+      </ul>
+
+    </div>
+  </section>
+
+  <!-- ================= PRESSE (übernommen von simonschaugg.de/Presse.dc.html) ================= -->
+  <section class="section is-paper" id="presse" aria-labelledby="presse-title">
+    <div class="wrap">
+      <div class="grid section-head">
+        <div class="section-head__title reveal">
+          <p class="label">Presse &amp; Medien</p>
+          <h2 class="h2" id="presse-title">Worüber berichtet wird.</h2>
+        </div>
+        <p class="section-head__aside body-muted reveal">Interviews, Expertenbeiträge, Berichte und Podcasts – zu Einsamkeit, Generationendialog, dem Ankommen in Deutschland und dem Übergang in den Ruhestand.</p>
+      </div>
+
+      <div class="press-focus">
+        <article class="press-card reveal">
+          <p class="label">Im Fokus · F.A.S. · 30.08.2026 · Titelseite Rhein-Main</p>
+          <h3 class="press-card__title">„Den Leistungsdruck nicht mit in den Ruhestand nehmen.“</h3>
+          <blockquote><p>„Die Gefahr ist, dass mit dem Übergang in den Ruhestand ein großer Identitäts- und Rollenbruch stattfindet, auch sozial.“</p></blockquote>
+          <p class="press-card__note">Aufmacher-Interview der Frankfurter Allgemeinen Sonntagszeitung mit Simon Schaugg als psychologischem Experten.</p>
+          <a class="textlink" href="https://www.faz.net/aktuell/rhein-main/region-und-hessen/warum-der-uebergang-in-den-ruhestand-fuer-unternehmer-und-manager-gefahren-birgt-accg-201157292.html" rel="noopener" target="_blank">Interview auf faz.net lesen <span class="arrow" aria-hidden="true">↗</span></a>
+        </article>
+        <article class="press-card reveal">
+          <p class="label">Neu · BILD am Sonntag · 18.10.2026 · S. 32</p>
+          <h3 class="press-card__title">„Die Kunst, ein glücklicher Rentner zu sein“</h3>
+          <blockquote><p>„Entscheidend ist weniger, wie viel jemand gearbeitet hat, sondern wie viel seines bisherigen Alltags, seiner sozialen Einbindung und seines Selbstbildes an dieser Arbeit hing.“</p></blockquote>
+          <p class="press-card__note">Simon Schaugg als Experte zum Leben nach dem Beruf.</p>
+          <a class="textlink" href="https://www.bild.de/leben-wissen/menschen-schicksale/rente-richtig-planen-so-gelingt-ein-gluecklicher-ruhestand-6a915f7e518a586e1855b435" rel="noopener" target="_blank">Auf bild.de lesen <span class="arrow" aria-hidden="true">↗</span></a>
+        </article>
+      </div>
+
+      <h3 class="block-title">Pressespiegel · neueste zuerst</h3>
+      <!-- Einträge hier pflegen (Quelle: simonschaugg.de/Presse.dc.html) -->
+      <ul class="press-list">
+        <li class="press-item"><time class="press-item__date" datetime="2026-10-18">18.10.2026</time><span class="press-item__outlet">BILD am Sonntag</span><a class="press-item__title" href="https://www.bild.de/leben-wissen/menschen-schicksale/rente-richtig-planen-so-gelingt-ein-gluecklicher-ruhestand-6a915f7e518a586e1855b435" rel="noopener" target="_blank">„Die Kunst, ein glücklicher Rentner zu sein“ <span class="arrow" aria-hidden="true">↗</span></a><span class="press-item__tag">Simon · Experte</span></li>
+        <li class="press-item"><time class="press-item__date" datetime="2026-09-30">30.09.2026</time><span class="press-item__outlet">Journal Frankfurt</span><a class="press-item__title" href="https://www.journal-frankfurt.de/journal_news/stadtleben-2/Bundesweite-Auszeichnung-Drei-Frankfurter-greifen-nach-Movers-of-Tomorrow-Award-46345.html" rel="noopener" target="_blank">„Drei Frankfurter greifen nach ‚Movers of Tomorrow Award‘“ <span class="arrow" aria-hidden="true">↗</span></a><span class="press-item__tag">YOLD</span></li>
+        <li class="press-item"><time class="press-item__date" datetime="2026-09-09">09.09.2026</time><span class="press-item__outlet">Social Impact Award Germany</span><a class="press-item__title" href="https://germany.socialimpactaward.net/article/yold-finalist-spotlight/" rel="noopener" target="_blank">„YOLD: Finalist Spotlight“ <span class="arrow" aria-hidden="true">↗</span></a><span class="press-item__tag">YOLD</span></li>
+        <li class="press-item"><time class="press-item__date" datetime="2026-09-03">03.09.2026</time><span class="press-item__outlet">Stiftung Polytechnische Gesellschaft</span><a class="press-item__title" href="https://sptg.de/magazin/details/100-projekte-fuer-mehr-zusammenhalt" rel="noopener" target="_blank">„100 Projekte für mehr Zusammenhalt“ <span class="arrow" aria-hidden="true">↗</span></a><span class="press-item__tag">YOLD</span></li>
+        <li class="press-item"><time class="press-item__date" datetime="2026-08-30">30.08.2026</time><span class="press-item__outlet">F.A.S. · Titelseite Rhein-Main</span><a class="press-item__title" href="https://www.faz.net/aktuell/rhein-main/region-und-hessen/warum-der-uebergang-in-den-ruhestand-fuer-unternehmer-und-manager-gefahren-birgt-accg-201157292.html" rel="noopener" target="_blank">„Den Leistungsdruck nicht mit in den Ruhestand nehmen.“ <span class="arrow" aria-hidden="true">↗</span></a><span class="press-item__tag">Simon · Experte</span></li>
+        <li class="press-item"><time class="press-item__date" datetime="2026-07-14">14.07.2026</time><span class="press-item__outlet">EinBlick · Goethe-Universität</span><a class="press-item__title" href="https://www.uni-frankfurt.de/de/newsroom/einblick/ausgabe-63/neu-hier-endlich-dazugehoeren" rel="noopener" target="_blank">„Neu hier: endlich dazugehören“ <span class="arrow" aria-hidden="true">↗</span></a><span class="press-item__tag">NeuHier</span></li>
+        <li class="press-item"><time class="press-item__date" datetime="2026-07-04">04.07.2026</time><span class="press-item__outlet">Frankfurter Neue Presse</span><a class="press-item__title" href="https://www.fnp.de/frankfurt/yold-sucht-junge-tandems-zwei-drittel-der-100-registrierten-ueber-55-94382211.html" rel="noopener" target="_blank">„YOLD sucht junge Tandems“ <span class="arrow" aria-hidden="true">↗</span></a><span class="press-item__tag">YOLD</span></li>
+        <li class="press-item"><time class="press-item__date" datetime="2026-07-04">04.07.2026</time><span class="press-item__outlet">Radio Frankfurt</span><a class="press-item__title" href="https://radiofrankfurt.de/yold-frankfurt-wenn-alt-und-jung-sich-suchen-aber-die-jungen-fehlen/" rel="noopener" target="_blank">„Wenn Alt und Jung sich suchen, aber die Jungen fehlen“ <span class="arrow" aria-hidden="true">↗</span></a><span class="press-item__tag">YOLD · Radio</span></li>
+        <li class="press-item"><time class="press-item__date" datetime="2026-06-25">25.06.2026</time><span class="press-item__outlet">UniReport · Goethe-Universität</span><a class="press-item__title" href="https://www.uni-frankfurt.de/de/newsroom/uni-report/ausgabe-2-2026/erfahrungsaustausch-ueber-generationengrenzen-hinweg" rel="noopener" target="_blank">„Erfahrungsaustausch über Generationengrenzen hinweg“ <span class="arrow" aria-hidden="true">↗</span></a><span class="press-item__tag">YOLD</span></li>
+        <li class="press-item"><time class="press-item__date" datetime="2026-06-25">25.06.2026</time><span class="press-item__outlet">idw · Informationsdienst Wissenschaft</span><a class="press-item__title" href="https://idw-online.de/de/news873391" rel="noopener" target="_blank">„Eine kollaborative Werkstatt und eine Generationenbrücke gegen Einsamkeit“ <span class="arrow" aria-hidden="true">↗</span></a><span class="press-item__tag">YOLD</span></li>
+        <li class="press-item"><time class="press-item__date" datetime="2026-06-18">18.06.2026</time><span class="press-item__outlet">Social Impact Award Germany</span><a class="press-item__title" href="https://germany.socialimpactaward.net/article/15-vielversprechende-antworten-auf-die-draengendsten-fragen-unserer-zeit/" rel="noopener" target="_blank">„15 vielversprechende Antworten auf die drängendsten Fragen unserer Zeit“ <span class="arrow" aria-hidden="true">↗</span></a><span class="press-item__tag">YOLD</span></li>
+        <li class="press-item"><time class="press-item__date" datetime="2026-06-14">14.06.2026</time><span class="press-item__outlet">Her Way – Women Living Abroad</span><a class="press-item__title" href="https://open.spotify.com/episode/4nGDY33sTV8h79qBOQomOM" rel="noopener" target="_blank">„Building a Startup as an Outsider in Germany“ – mit Ziyue Zhang <span class="arrow" aria-hidden="true">↗</span></a><span class="press-item__tag">NeuHier · Podcast</span></li>
+        <li class="press-item"><time class="press-item__date" datetime="2026-04-28">28.04.2026</time><span class="press-item__outlet">F.A.Z. · Hochschule</span><a class="press-item__title" href="https://www.faz.net/aktuell/rhein-main/frankfurt/boomer-und-genz-gehen-miteinander-aus-projekt-yold-an-uni-frankfurt-200765724.html" rel="noopener" target="_blank">„Beim ersten Treffen waren sie zusammen joggen.“ <span class="arrow" aria-hidden="true">↗</span></a><span class="press-item__tag">YOLD</span></li>
+        <li class="press-item"><time class="press-item__date" datetime="2026-04-14">14.04.2026</time><span class="press-item__outlet">Journal Frankfurt</span><a class="press-item__title" href="https://www.journal-frankfurt.de/journal_news/Stadtleben-2/Einsamkeit-in-Frankfurt-Tandem-Projekt-bringt-Studierende-und-Senioren-zusammen-45501.html" rel="noopener" target="_blank">„Tandem-Projekt bringt Studierende und Senioren zusammen“ <span class="arrow" aria-hidden="true">↗</span></a><span class="press-item__tag">YOLD · Interview</span></li>
+        <li class="press-item"><time class="press-item__date" datetime="2026-04-14">14.04.2026</time><span class="press-item__outlet">Stadt Frankfurt im Blick</span><a class="press-item__title" href="https://stadt-frankfurt-im-blick.de/generationen-verbinden-erfahrungen-teilen/" rel="noopener" target="_blank">„Generationen verbinden, Erfahrungen teilen“ <span class="arrow" aria-hidden="true">↗</span></a><span class="press-item__tag">YOLD</span></li>
+        <li class="press-item"><time class="press-item__date" datetime="2025-12-02">02.12.2025</time><span class="press-item__outlet">Best Practice Startup Club</span><a class="press-item__title" href="https://www.podcast.de/episode/702189910/migration-nach-deutschland-neuhiercom-mit-robin-schaugg" rel="noopener" target="_blank">„Migration nach Deutschland (neuhier.com) mit Robin Schaugg“ <span class="arrow" aria-hidden="true">↗</span></a><span class="press-item__tag">NeuHier · Podcast</span></li>
+        <li class="press-item"><time class="press-item__date" datetime="2025-05-30">30.05.2025</time><span class="press-item__outlet">Frankfurt-Live</span><a class="press-item__title" href="https://www.frankfurt-live.com/frankfurt-next-generation-laedt-ein" rel="noopener" target="_blank">„Frankfurt Next Generation lädt ein“ <span class="arrow" aria-hidden="true">↗</span></a><span class="press-item__tag">YOLD</span></li>
+      </ul>
+      <p class="press-list__more"><a class="textlink" href="https://simonschaugg.de/Presse.dc.html" rel="noopener" target="_blank">Vollständiger Pressespiegel, Pressefotos und Kurzbiografie auf simonschaugg.de <span class="arrow" aria-hidden="true">↗</span></a></p>
+    </div>
+  </section>
+
+  <!-- ================= KONTAKT ================= -->
+  <section class="section is-dark" id="kontakt" aria-labelledby="contact-title">
+    <div class="wrap grid contact-grid">
+      <div class="contact-intro">
+        <p class="label">Kontakt</p>
+        <h2 id="contact-title" class="reveal">Sie haben ein Problem? Sehr gut.</h2>
+        <p class="note">Wir mögen Probleme. Vor allem gut verstandene.</p>
+        <p class="body-muted" style="font-size: 1.25rem;">Sie arbeiten an einem digitalen Angebot, einem KI-Projekt oder einer gesellschaftlichen Herausforderung? Wir freuen uns über Pilotprojekte, Kooperationen und gemeinsame Produktentwicklung.</p>
+        <div class="contact-people">
+          <div class="contact-person"><span><strong>Simon Schaugg</strong><small>Strategy · Psychology · Social Innovation</small></span><span class="contact-person__links"><a href="https://www.simonschaugg.de" rel="noopener" target="_blank">simonschaugg.de ↗</a><a href="https://www.linkedin.com/in/simonschaugg" rel="noopener" target="_blank">LinkedIn ↗</a></span></div>
+          <div class="contact-person"><span><strong>Robin Schaugg</strong><small>Product · Technology · AI</small></span><a href="https://www.linkedin.com/in/robin-schaugg-302b01218/" rel="noopener" target="_blank">LinkedIn ↗</a></div>
+          <!-- TODO: echte Adresse eintragen -->
+          <div class="contact-person"><span><small>E-Mail</small></span><a href="mailto:kontakt@DOMAIN.de">kontakt@[domain].de</a></div>
+        </div>
+      </div>
+
+      <div class="contact-panel">
+        <!--
+          PROTOTYP: Das Formular sendet noch nichts.
+          Für den Livegang in assets/main.js (Funktion sendInquiry) einen Dienst anbinden,
+          z. B. eigenes Backend, Formspree, Netlify Forms oder Web3Forms – DSGVO-konform (AVV, Serverstandort EU).
+        -->
+        <form class="form" id="inquiry-form" novalidate>
+          <div class="form__row">
+            <div class="field"><label for="f-name">Name</label><input class="input" id="f-name" name="name" type="text" autocomplete="name" required></div>
+            <div class="field"><label for="f-org">Organisation</label><input class="input" id="f-org" name="organisation" type="text" autocomplete="organization" required></div>
+          </div>
+          <div class="form__row">
+            <div class="field"><label for="f-mail">E-Mail</label><input class="input" id="f-mail" name="email" type="email" autocomplete="email" required></div>
+            <div class="field"><label for="f-web">Website <span class="field__opt">(optional)</span></label><input class="input" id="f-web" name="website" type="url" autocomplete="url" placeholder="https://"></div>
+          </div>
+          <div class="field">
+            <label for="f-msg">Worum geht es?</label>
+            <textarea class="input" id="f-msg" name="message" rows="5" required placeholder="Kurz beschrieben: Ausgangslage, Zielgruppe, Idee"></textarea>
+          </div>
+          <fieldset class="field">
+            <legend>Projektphase</legend>
+            <div class="chips">
+              <label class="chip"><input type="radio" name="phase" id="phase-idee" value="Idee" checked><span>Idee</span></label>
+              <label class="chip"><input type="radio" name="phase" id="phase-konzept" value="Konzept"><span>Konzept</span></label>
+              <label class="chip"><input type="radio" name="phase" id="phase-prototyp" value="Prototyp"><span>Prototyp</span></label>
+              <label class="chip"><input type="radio" name="phase" id="phase-umsetzung" value="Umsetzung"><span>Umsetzung</span></label>
+              <label class="chip"><input type="radio" name="phase" id="phase-offen" value="Noch unklar"><span>Noch unklar</span></label>
+            </div>
+          </fieldset>
+          <div class="field">
+            <label for="f-time">Ungefährer Zeitrahmen <span class="field__opt">(optional)</span></label>
+            <select class="input" id="f-time" name="timeframe">
+              <option value="">Bitte wählen</option>
+              <option>In den nächsten 3 Monaten</option>
+              <option>In 3–6 Monaten</option>
+              <option>Später / noch offen</option>
+            </select>
+          </div>
+          <div class="consent">
+            <input id="f-consent" name="consent" type="checkbox" required>
+            <label for="f-consent">Ich habe die <a href="datenschutz.html">Datenschutzerklärung</a> gelesen und bin mit der Verarbeitung meiner Angaben zur Beantwortung der Anfrage einverstanden.</label>
+          </div>
+          <p class="form__error" id="form-error" role="alert" hidden style="color: var(--peach);">Bitte füllen Sie alle Pflichtfelder aus und bestätigen Sie die Datenschutzhinweise.</p>
+          <div class="form__foot">
+            <span class="form__hint">Prototyp · Versand noch nicht angebunden</span>
+            <button class="btn btn--light" type="submit"><svg class="plane" viewBox="0 0 64 40" aria-hidden="true"><path d="M2 20 L62 2 L40 38 L30 24 Z" fill="#F5F2EB" stroke="#0E1726" stroke-width="2.5" stroke-linejoin="round"/><path d="M62 2 L30 24 L28 34" fill="none" stroke="#0E1726" stroke-width="2.5" stroke-linejoin="round"/></svg><span class="btn__label">Projekt besprechen</span></button>
+          </div>
+        </form>
+
+        <div class="form-success" id="form-success" hidden tabindex="-1">
+          <p class="label">Danke</p>
+          <h3>Angekommen. Ein Mensch liest das.</h3>
+          <p>Wir melden uns persönlich bei Ihnen – ohne Autoresponder-Poesie.</p>
+          <button class="btn btn--sm btn--ghost" type="button" id="form-reset" style="color: var(--on-dark); border-color: rgba(245,242,235,0.32); align-self: flex-start;">Neue Anfrage</button>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- ================= FOOTER ================= -->
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="grid footer-grid">
+      <div class="footer-brand">
+        <span class="brand" style="min-height: 0;"><span class="brand__mark" aria-hidden="true"></span><span class="brand__name">Tech <span class="brand__amp">&amp;</span> so</span></span>
+        <span class="label">Technologie &amp; Soziales · Simon &amp; Robin Schaugg</span>
+        <p class="note">Tech &amp; so. Technologie &amp; Soziales. Und so.</p>
+        <p class="footer-claim" lang="en">Human understanding. Product thinking. Technology that works.</p>
+      </div>
+      <nav class="footer-nav footer-nav--a" aria-label="Personen und Projekte">
+        <span class="label">Personen &amp; Projekte</span>
+        <a href="https://www.simonschaugg.de" rel="noopener" target="_blank">simonschaugg.de</a>
+        <a href="https://www.linkedin.com/in/simonschaugg" rel="noopener" target="_blank">LinkedIn Simon</a>
+        <a href="https://www.linkedin.com/in/robin-schaugg-302b01218/" rel="noopener" target="_blank">LinkedIn Robin</a>
+        <a href="https://neuhier.com" rel="noopener" target="_blank">NeuHier · neuhier.com</a>
+        <a href="https://yold.info" rel="noopener" target="_blank">YOLD · yold.info</a>
+        <a href="https://yoldconnect.de" rel="noopener" target="_blank">YOLD Connect · yoldconnect.de</a>
+      </nav>
+      <nav class="footer-nav footer-nav--b" aria-label="Rechtliches">
+        <span class="label">Rechtliches</span>
+        <a href="impressum.html">Impressum</a>
+        <a href="datenschutz.html">Datenschutz</a>
+      </nav>
+    </div>
+    <div class="footer-bottom label">
+      <span>© <span id="year">2026</span> Tech &amp; so · Simon &amp; Robin Schaugg</span>
+      <span>Von Menschen gemacht. Mit etwas Hilfe von Maschinen.</span>
+      <span>Frankfurt · Heidelberg</span>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/main.js" defer></script>
+<script src="assets/yold-stats.js" defer></script>
+<script src="assets/play.js" defer></script>
+</body>
+</html>
